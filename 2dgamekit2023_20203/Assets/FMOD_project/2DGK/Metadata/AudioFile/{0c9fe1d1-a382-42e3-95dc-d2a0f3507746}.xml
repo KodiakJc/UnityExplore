@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0c9fe1d1-a382-42e3-95dc-d2a0f3507746}">
+		<property name="assetPath">
+			<value>Placeholder_Step_Grass_2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.60933333333333328</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a5dc1744-e8c3-4327-8c35-87ad8b91160c}</destination>
+		</relationship>
+	</object>
+</objects>
