@@ -10,7 +10,7 @@ public class PushableBoxPosition : MonoBehaviour
     void Update()
     {
         pushableBoxPosY = pushableBox.transform.position.y; // Récupère la position Y actuelle de l'objet PushableBox
-        Debug.Log("La position Y de l'objet PushableBox est : " + pushableBoxPosY); // Affiche la position Y dans la console Unity
+        //Debug.Log("La position Y de l'objet PushableBox est : " + pushableBoxPosY); // Affiche la position Y dans la console Unity
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("YoyoWater", pushableBoxPosY);
     }
 }

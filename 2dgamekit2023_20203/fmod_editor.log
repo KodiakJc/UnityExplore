@@ -6,7 +6,7 @@
 [LOG] OutputCoreAudio::init                    : Maximum hardware read size: 512 samples, Software buffer size: 512 samples, Number of software buffers: 4.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x7fcabab34008 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0x7fcabb382808 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,44 +18,22 @@
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Listener'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [WRN] EffectInstanceFactory::create            : Creating stub DSP for plugin 'Resonance Audio Listener'
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] SoundI::release                          :  (0x7fcabe03e5d8)
-[LOG] SoundI::release                          :     Placeholder_Land_Grass (0x7fcabe06a6d8)
-[LOG] SoundI::release                          :  (0x7fcb0f45b218)
-[LOG] SoundI::release                          :     Placeholder_Step_Grass_1 (0x7fcb0f475f28)
-[LOG] SoundI::release                          :  (0x7fcb0f433078)
-[LOG] SoundI::release                          :     Placeholder_Step_Grass_2 (0x7fcab90370d8)
-[LOG] SoundI::release                          :  (0x7fcb0f4c0968)
-[LOG] SoundI::release                          :     Placeholder_Step_Grass_3 (0x7fcab9082e48)
-[LOG] SoundI::release                          :  (0x7fcb0f4cbdd8)
-[LOG] SoundI::release                          :     Placeholder_Step_Grass_4 (0x7fcab90494e8)
-[LOG] SoundI::release                          :  (0x7fcb0f4df768)
-[LOG] SoundI::release                          :     Placeholder_Step_Grass_5 (0x7fcb0f4092d8)
-[LOG] SoundI::release                          :  (0x7fcb0f46bdb8)
-[LOG] SoundI::release                          :     Placeholder_Step_Grass_6 (0x7fcab90b71f8)
-[LOG] SoundI::release                          :  (0x7fcb0f46b9d8)
-[LOG] SoundI::release                          :     Placeholder_Step_Grass_7 (0x7fcb0f45a1d8)
-[LOG] SoundI::release                          :  (0x7fcb0f470308)
-[LOG] SoundI::release                          :     Placeholder_Step_Grass_8 (0x7fcb0f4f40c8)
-[LOG] SoundI::release                          :  (0x7fcb0f44c298)
-[LOG] SoundI::release                          :     loop_stone (0x7fcb0f418568)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Soundfield'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Listener'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[WRN] EffectInstanceFactory::create            : Creating stub DSP for plugin 'Resonance Audio Listener'
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
