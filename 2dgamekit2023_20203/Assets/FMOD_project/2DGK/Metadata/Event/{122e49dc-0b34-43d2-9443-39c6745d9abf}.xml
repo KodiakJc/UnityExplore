@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{831644ce-74e2-48c7-b029-6b8f101e57db}">
+		<relationship name="modulators">
+			<destination>{7bd9b7fe-baa4-49b0-9676-965cd621f46d}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{bda993e2-ccc5-4762-9e88-f7dac0048985}</destination>
 		</relationship>
@@ -106,6 +109,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e2a95077-cf5b-4440-8624-a7baee0e9a35}">
+		<property name="volume">
+			<value>-8</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -132,6 +138,23 @@
 		<relationship name="markerTrack">
 			<destination>{6660d724-d9e5-454b-bb4d-f71a2e299407}</destination>
 		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{7bd9b7fe-baa4-49b0-9676-965cd621f46d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>60</value>
+		</property>
+		<property name="releaseTime">
+			<value>80</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{bda993e2-ccc5-4762-9e88-f7dac0048985}">
 		<relationship name="effects">

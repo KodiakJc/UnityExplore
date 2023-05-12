@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 namespace Gamekit2D
 {
@@ -63,6 +63,18 @@ namespace Gamekit2D
         {
             Footsteps.release();
         }
+void PlayCrouch(string argument)//
+{
+FMODUnity.RuntimeManager.PlayOneShot(argument);//
+}
+void PlayCrouchGun(string argument)//
+{
+FMODUnity.RuntimeManager.PlayOneShot(argument);//
+}
+void PlayJump()//
+{
+FMODUnity.RuntimeManager.PlayOneShot("event:/Ellen/Locomotion/EllenJump");//
+}
 
         void PlayerLanded()
         {

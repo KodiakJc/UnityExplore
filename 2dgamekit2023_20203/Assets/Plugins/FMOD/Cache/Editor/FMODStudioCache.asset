@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9190104357305191441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Chomper/ChomperDie
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Chomper/ChomperDie
+  Guid:
+    Data1: -785744489
+    Data2: 1215137774
+    Data3: 45754503
+    Data4: -1844518504
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 15
+  Length: 0
 --- !u!114 &-9185262390224107807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18,8 +45,7 @@ MonoBehaviour:
     Data2: 1325504620
     Data3: -1480127840
     Data4: 610278788
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -27,6 +53,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-9020680194299488079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-8994266366185648397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,8 +95,7 @@ MonoBehaviour:
     Data2: 1224153373
     Data3: -228503660
     Data4: 1172784057
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -104,6 +153,81 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &-8859368872741108671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicZone
+  m_EditorClassIdentifier: 
+  Name: MusicZone
+  StudioPath: parameter:/MusicZone
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 1795638474
+    data2: 4101016075
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8841821687443108762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-8730044672128377633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Gunner/GunnerDefeatedSting
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Gunner/GunnerDefeatedSting
+  Guid:
+    Data1: -1486047608
+    Data2: 1311927860
+    Data3: 1326542988
+    Data4: 993941372
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-8700964872081548995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,8 +246,7 @@ MonoBehaviour:
     Data2: 1311594177
     Data3: 556312759
     Data4: -34287307
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -149,8 +272,33 @@ MonoBehaviour:
     Data2: 1081750957
     Data3: -1276135509
     Data4: -1237972777
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8685417363140854033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Locomotion/EllenSpawn
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Locomotion/EllenSpawn
+  Guid:
+    Data1: 745532354
+    Data2: 1107220928
+    Data3: -1532310117
+    Data4: -239014537
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -176,8 +324,7 @@ MonoBehaviour:
     Data2: 1290595732
     Data3: -1700536429
     Data4: 1589458328
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -185,7 +332,79 @@ MonoBehaviour:
   MinDistance: 2.4
   MaxDistance: 50
   Length: 0
+--- !u!114 &-8473571933635005281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGameplay/MusicZone
+  m_EditorClassIdentifier: 
+  Name: MusicZone
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8464314858262087623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-8365546539720120116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-8285595464143442171
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -233,6 +452,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &-8237435051161963614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGameplay/MusicZone
+  m_EditorClassIdentifier: 
+  Name: MusicZone
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-8202989618376935782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,6 +502,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 15
   Length: 0
+--- !u!114 &-8155548343766113438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Click
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Click
+  Guid:
+    Data1: 422372920
+    Data2: 1228921259
+    Data3: 1050953611
+    Data4: -1573326308
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 332
 --- !u!114 &-8151064842791712456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,8 +547,7 @@ MonoBehaviour:
     Data2: 1114082865
     Data3: -1652896359
     Data4: 1855651603
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -310,6 +579,81 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-7946021189893384213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-7891574908472296203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Gunner/GunnerGrenadeLaunch
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Gunner/GunnerGrenadeLaunch
+  Guid:
+    Data1: 1211012584
+    Data2: 1113776306
+    Data3: -988102511
+    Data4: -1160069318
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 70
+  Length: 0
+--- !u!114 &-7887865441361981923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &-7839654418686809349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,8 +672,7 @@ MonoBehaviour:
     Data2: 1085736678
     Data3: 641721231
     Data4: -433365356
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -337,6 +680,81 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 12000
+--- !u!114 &-7775147024857800277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-7740096338814830014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/GenericPickup
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/GenericPickup
+  Guid:
+    Data1: -960721210
+    Data2: 1085778384
+    Data3: -841493588
+    Data4: 1654667717
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7730392912322548711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &-7687516206098400687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,11 +770,62 @@ MonoBehaviour:
   Path: Assets/FMOD_project/2DGK/Build/Desktop/Master Bank.strings.bank
   Name: Master Bank.strings
   StudioPath: bank:/Master Bank.strings
-  lastModified: 638170728990000000
+  lastModified: 638193156940000000
   FileSizes:
   - Name: Desktop
-    Value: 3768
+    Value: 4218
   Exists: 1
+--- !u!114 &-7484251135794503786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/DoorOpening
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/DoorOpening
+  Guid:
+    Data1: -184682291
+    Data2: 1328815353
+    Data3: -1534913385
+    Data4: -1906243032
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7472219416495754944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &-7416669410700181542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -378,6 +847,30 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-7363896003336153814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Labels: []
   Exists: 1
@@ -447,8 +940,7 @@ MonoBehaviour:
     Data2: 1157748418
     Data3: 799677860
     Data4: -1649754642
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -456,6 +948,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 10
   Length: 5538
+--- !u!114 &-7186589120858307187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-7182918287097259675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &-7133760339608133141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -474,8 +1014,7 @@ MonoBehaviour:
     Data2: 1262826682
     Data3: -1132298857
     Data4: 949665370
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -483,6 +1022,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 15
   Length: 0
+--- !u!114 &-7109863021086843062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-6937307488933659880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,6 +1146,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 70
   Length: 0
+--- !u!114 &-6784027828668853199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &-6775969203689901614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -609,6 +1196,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4500
+--- !u!114 &-6738750453120028154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Gunner/GunnerFootstep
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Gunner/GunnerFootstep
+  Guid:
+    Data1: 2137848271
+    Data2: 1269039938
+    Data3: -391642240
+    Data4: -523672292
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3
+  MaxDistance: 35
+  Length: 1727
 --- !u!114 &-6727866280098097210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -635,6 +1249,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-6718663056338002239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Locomotion/EllenJump
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Locomotion/EllenJump
+  Guid:
+    Data1: -1040057233
+    Data2: 1299177666
+    Data3: 1169684628
+    Data4: -1922635038
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 609
 --- !u!114 &-6715812794164345604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -761,6 +1401,84 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-6454031842863377366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/ClickStart
+  m_EditorClassIdentifier: 
+  Path: event:/UI/ClickStart
+  Guid:
+    Data1: -1072699350
+    Data2: 1127309519
+    Data3: 296698799
+    Data4: -1840964702
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 574
+--- !u!114 &-6406059445066897771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-6275747971333330978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/TeleportLoop
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/TeleportLoop
+  Guid:
+    Data1: 2023937983
+    Data2: 1157748418
+    Data3: 799677860
+    Data4: -1649754642
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 5538
 --- !u!114 &-6245446801301260426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -809,6 +1527,57 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &-6154332449126855748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6078148080556894291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Spitter/SpitterAttack
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Spitter/SpitterAttack
+  Guid:
+    Data1: 2088108160
+    Data2: 1206391008
+    Data3: 854904509
+    Data4: -820250622
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 15
+  Length: 0
 --- !u!114 &-6023208697700360359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -835,6 +1604,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 15
   Length: 0
+--- !u!114 &-6011706561910314162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-5938298720249036359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-5915845909441934493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -901,8 +1718,7 @@ MonoBehaviour:
     Data2: 1085304192
     Data3: 955967133
     Data4: -2145428871
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -952,8 +1768,7 @@ MonoBehaviour:
     Data2: 1270879500
     Data3: 1513108353
     Data4: -1954781738
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -979,8 +1794,7 @@ MonoBehaviour:
     Data2: 1203692398
     Data3: -1077095515
     Data4: 1598157419
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -989,6 +1803,30 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 574
 --- !u!114 &-5532386277284859750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-5490992195515884168
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1030,8 +1868,7 @@ MonoBehaviour:
     Data2: 1299897199
     Data3: 976006276
     Data4: 328955774
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1039,6 +1876,201 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-5407988811036073560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5390124476498763606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-5361560774413346851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-5322188065373256659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Snp_muteambiance
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Snp_muteambiance
+  Guid:
+    Data1: -583174672
+    Data2: 1092247890
+    Data3: 207164605
+    Data4: -231740535
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-5268522341021723967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5189806681372754269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5184457819926517069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5178919557015278439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &-5143644645213335263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1057,6 +2089,56 @@ MonoBehaviour:
     Data2: 1328815353
     Data3: -1534913385
     Data4: -1906243032
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5140154721100097048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5092398081834394531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/AcidPoolSplash
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/AcidPoolSplash
+  Guid:
+    Data1: -1284032034
+    Data2: 1085304192
+    Data3: 955967133
+    Data4: -2145428871
   Banks:
   - {fileID: 6604917999249015160}
   IsStream: 0
@@ -1113,6 +2195,30 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-4837817903018138483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
   IsGlobal: 0
   Labels: []
   Exists: 0
@@ -1182,8 +2288,7 @@ MonoBehaviour:
     Data2: 1164822361
     Data3: -1134690122
     Data4: -1557147382
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1209,8 +2314,7 @@ MonoBehaviour:
     Data2: 1137838900
     Data3: -969325676
     Data4: -1080402572
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1244,6 +2348,111 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 156300
+--- !u!114 &-4662791932089134706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/InCavern
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/InCavern
+  Guid:
+    Data1: 520704549
+    Data2: 1340638088
+    Data3: -1663142977
+    Data4: 1946809120
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &-4637821798514759503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/PushClayBoxLoop
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/PushClayBoxLoop
+  Guid:
+    Data1: -200816333
+    Data2: 1164822361
+    Data3: -1134690122
+    Data4: -1557147382
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1400
+--- !u!114 &-4619882371859451744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Locomotion/EllenCrouch
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Locomotion/EllenCrouch
+  Guid:
+    Data1: -110009155
+    Data2: 1082818949
+    Data3: 1344674445
+    Data4: -1229131941
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 281
+--- !u!114 &-4296125075685574543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &-4272651342600977163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1286,8 +2495,7 @@ MonoBehaviour:
     Data2: 1205363487
     Data3: 245063831
     Data4: 293640616
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1314,6 +2522,162 @@ MonoBehaviour:
     Data3: 955967133
     Data4: -2145428871
   Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4123575357156154004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-4097354833982361727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Speech/3rdInfoPoint02
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Speech/3rdInfoPoint02
+  Guid:
+    Data1: 1023974709
+    Data2: 1109421572
+    Data3: -1562027124
+    Data4: -278641127
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2026
+--- !u!114 &-3801224075177987411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Gunner/GunnerSteamStage02
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Gunner/GunnerSteamStage02
+  Guid:
+    Data1: -1646000684
+    Data2: 1093951665
+    Data3: 1126125483
+    Data4: -141884798
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 40
+  Length: 2919
+--- !u!114 &-3749243777131206817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/EnvironmentalAmbiance
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/EnvironmentalAmbiance
+  Guid:
+    Data1: -1516107473
+    Data2: 1220820296
+    Data3: -2105419376
+    Data4: 1717150905
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 156300
+--- !u!114 &-3711659660020384149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3710795122699121632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/SpaceShotgun
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/SpaceShotgun
+  Guid:
+    Data1: 1008073648
+    Data2: 1325504620
+    Data3: -1480127840
+    Data4: 610278788
+  Banks:
+  - {fileID: 6604917999249015160}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1413,8 +2777,7 @@ MonoBehaviour:
     Data2: 1326067362
     Data3: 1466230168
     Data4: 1164573315
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1524,6 +2887,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3279946990604956780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3269241006702234024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1566,8 +2953,7 @@ MonoBehaviour:
     Data2: 1228921259
     Data3: 1050953611
     Data4: -1573326308
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1599,6 +2985,54 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-3146202208717363349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGameplay/MusicZone
+  m_EditorClassIdentifier: 
+  Name: MusicZone
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3008660284140162440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-2999449430436733372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1616,6 +3050,30 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-2847131688102280788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
   ID:
     data1: 0
     data2: 0
@@ -1674,6 +3132,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2658131129254034678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/UnmuteAmbiance
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/UnmuteAmbiance
+  Guid:
+    Data1: -1663835861
+    Data2: 1099091469
+    Data3: 1595462825
+    Data4: -2106075202
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11800
 --- !u!114 &-2531411427909570767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1698,6 +3183,34 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &-2464063718270541359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Locomotion/EllenFootstep
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Locomotion/EllenFootstep
+  Guid:
+    Data1: -594613846
+    Data2: 1324343398
+    Data3: 1818452911
+    Data4: -1780652067
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6648515422657194652}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
 --- !u!114 &-2414898665295789914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1716,8 +3229,7 @@ MonoBehaviour:
     Data2: 1099091469
     Data3: 1595462825
     Data4: -2106075202
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1801,6 +3313,57 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-2331388040851163197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Gunner/GunnerLightningAttack
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Gunner/GunnerLightningAttack
+  Guid:
+    Data1: -180565111
+    Data2: 1270879500
+    Data3: 1513108353
+    Data4: -1954781738
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 4
+  MaxDistance: 50
+  Length: 0
+--- !u!114 &-2326173025655207720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &-2326079715838703685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1819,6 +3382,128 @@ MonoBehaviour:
     Data2: 1173190891
     Data3: 247303570
     Data4: 2060780781
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2294053604126491114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-2095225746821305315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-2019083140269023779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGameplay/MusicZone
+  m_EditorClassIdentifier: 
+  Name: MusicZone
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1894075236598471481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1887566161859064819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/PressurePad
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/PressurePad
+  Guid:
+    Data1: 670292841
+    Data2: 1240875110
+    Data3: 98901679
+    Data4: 1725336042
   Banks:
   - {fileID: 6604917999249015160}
   IsStream: 0
@@ -1828,6 +3513,57 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-1777312805623521518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/PushClayBoxStart
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/PushClayBoxStart
+  Guid:
+    Data1: -367399457
+    Data2: 1191789151
+    Data3: 2056403096
+    Data4: -32911532
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1684742887659011486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1645362905196095985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1852,6 +3588,57 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &-1468475686285702551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-1451821446817841603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Chomper/ChomperFootstep
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Chomper/ChomperFootstep
+  Guid:
+    Data1: -813730964
+    Data2: 1262826682
+    Data3: -1132298857
+    Data4: 949665370
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 15
+  Length: 0
 --- !u!114 &-1320892444947591110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1870,8 +3657,7 @@ MonoBehaviour:
     Data2: 1270411566
     Data3: -500491854
     Data4: 158314100
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1953,6 +3739,84 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &-1200321913021237985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/MuteAmbiance
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/MuteAmbiance
+  Guid:
+    Data1: -1918426388
+    Data2: 1085736678
+    Data3: 641721231
+    Data4: -433365356
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12000
+--- !u!114 &-1091100269292476336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Snp_Cavern
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Snp_Cavern
+  Guid:
+    Data1: -1755102208
+    Data2: 1298671344
+    Data3: 844355253
+    Data4: 1765513877
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-1087734121939559841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &-1005684687721769752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1980,6 +3844,81 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 47213
+--- !u!114 &-933226122203118625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-923887908026380588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-882449505611556959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/MovingPlatform
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/MovingPlatform
+  Guid:
+    Data1: 955491340
+    Data2: 1327328532
+    Data3: 931886990
+    Data4: 986448583
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4674
 --- !u!114 &-825314422678304609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1998,8 +3937,7 @@ MonoBehaviour:
     Data2: 1127309519
     Data3: 296698799
     Data4: -1840964702
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2007,6 +3945,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 574
+--- !u!114 &-787769201188178820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &-712427103469557535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2057,6 +4019,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-560829660778245644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &-547201126012041048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2075,8 +4061,7 @@ MonoBehaviour:
     Data2: 1311927860
     Data3: 1326542988
     Data4: 993941372
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2102,8 +4087,7 @@ MonoBehaviour:
     Data2: 1220122341
     Data3: -1711052662
     Data4: 1292830215
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2111,6 +4095,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 365
+--- !u!114 &-482652353671418103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-459686965452466025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2129,8 +4137,7 @@ MonoBehaviour:
     Data2: 1220844280
     Data3: -1493933137
     Data4: -388727794
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -2164,6 +4171,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 40
   Length: 2919
+--- !u!114 &-339350605807976787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-338634472092971033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-285226732951273782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2185,6 +4240,30 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &-265687460298083292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
   IsGlobal: 0
   Labels: []
   Exists: 0
@@ -2254,64 +4333,100 @@ MonoBehaviour:
   - {fileID: -7687516206098400687}
   - {fileID: 6604917999249015160}
   EditorEvents:
-  - {fileID: 6085468260134594889}
-  - {fileID: -8994266366185648397}
-  - {fileID: -459686965452466025}
-  - {fileID: -825314422678304609}
-  - {fileID: -2414898665295789914}
-  - {fileID: 3264701704390393650}
-  - {fileID: -495022728566769330}
-  - {fileID: -4746037588593945352}
-  - {fileID: 7813732052193310111}
-  - {fileID: -3201224249895887499}
-  - {fileID: 2024146903231654153}
-  - {fileID: -8151064842791712456}
-  - {fileID: 5965927159543574894}
-  - {fileID: -8700090471148351150}
-  - {fileID: 4603990164006767094}
-  - {fileID: 3649396590335241181}
-  - {fileID: -7133760339608133141}
-  - {fileID: -3587941901102801363}
-  - {fileID: -5537833701427511127}
-  - {fileID: 1442633728910953850}
-  - {fileID: 7717427934454063241}
-  - {fileID: 2310480281352552722}
-  - {fileID: -547201126012041048}
-  - {fileID: -5543166552814734319}
-  - {fileID: 5151995794731300243}
-  - {fileID: -8700964872081548995}
-  - {fileID: 5836334303343449059}
-  - {fileID: 5375328306229128391}
-  - {fileID: -4218101533984454807}
-  - {fileID: 8679941752309364550}
-  - {fileID: -9185262390224107807}
-  - {fileID: -2326079715838703685}
-  - {fileID: -5489232529685375888}
-  - {fileID: -7290117370755675834}
-  - {fileID: -1320892444947591110}
-  - {fileID: 6839434255200764985}
-  - {fileID: 908894454811307694}
-  - {fileID: -5143644645213335263}
-  - {fileID: 3264088993489095339}
-  - {fileID: 6350317283371607739}
-  - {fileID: 5034348121330774943}
-  - {fileID: 860780088305550266}
-  - {fileID: -4735432240190224913}
-  - {fileID: -5849367420884634832}
-  - {fileID: 1166799098412335047}
-  - {fileID: 4209688503646711025}
-  - {fileID: 613803866129806523}
-  - {fileID: -7839654418686809349}
-  - {fileID: -8563172004906252251}
-  - {fileID: 7093769846003713000}
-  - {fileID: 68422989058307811}
-  EditorParameters: []
+  - {fileID: 1018462989068417230}
+  - {fileID: 1660321440785947347}
+  - {fileID: 5541157046994781817}
+  - {fileID: -6454031842863377366}
+  - {fileID: -2658131129254034678}
+  - {fileID: -3749243777131206817}
+  - {fileID: 341244262133272782}
+  - {fileID: -4637821798514759503}
+  - {fileID: -4097354833982361727}
+  - {fileID: -8155548343766113438}
+  - {fileID: 2091023505802812606}
+  - {fileID: 2785967912020067254}
+  - {fileID: 4834969383639648168}
+  - {fileID: 1422480201300626700}
+  - {fileID: 6052128105088890803}
+  - {fileID: 3952092668184853510}
+  - {fileID: -1887566161859064819}
+  - {fileID: -1451821446817841603}
+  - {fileID: 8885472155751578155}
+  - {fileID: 3208164522286194694}
+  - {fileID: 6978671986406870589}
+  - {fileID: 9122527021613138826}
+  - {fileID: -6078148080556894291}
+  - {fileID: 2320904399394256140}
+  - {fileID: -8730044672128377633}
+  - {fileID: -2331388040851163197}
+  - {fileID: 3441469282641175632}
+  - {fileID: 7689782771815032879}
+  - {fileID: -9190104357305191441}
+  - {fileID: 776574516787367431}
+  - {fileID: 5673569025953940594}
+  - {fileID: -2464063718270541359}
+  - {fileID: -3710795122699121632}
+  - {fileID: 7468848817116589829}
+  - {fileID: 7592162481614552457}
+  - {fileID: -4619882371859451744}
+  - {fileID: -6275747971333330978}
+  - {fileID: 6402407684435456521}
+  - {fileID: 6550351596546619784}
+  - {fileID: 3329908216199972794}
+  - {fileID: -7740096338814830014}
+  - {fileID: -7484251135794503786}
+  - {fileID: 1432788574101744178}
+  - {fileID: -6738750453120028154}
+  - {fileID: 9078612161412381764}
+  - {fileID: -3801224075177987411}
+  - {fileID: 4193806083491028}
+  - {fileID: -5092398081834394531}
+  - {fileID: -1777312805623521518}
+  - {fileID: 3376843935171413957}
+  - {fileID: -7891574908472296203}
+  - {fileID: 2398940382794731979}
+  - {fileID: -1200321913021237985}
+  - {fileID: 1846842004240737303}
+  - {fileID: 7940724029652078573}
+  - {fileID: -882449505611556959}
+  - {fileID: -1091100269292476336}
+  - {fileID: -5322188065373256659}
+  - {fileID: -4662791932089134706}
+  EditorParameters:
+  - {fileID: -8859368872741108671}
   MasterBanks:
   - {fileID: 6604917999249015160}
   StringsBanks:
   - {fileID: -7687516206098400687}
-  cacheTime: 638170728990000000
+  cacheTime: 638193156940000000
   cacheVersion: 9
+--- !u!114 &4193806083491028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Rollover
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Rollover
+  Guid:
+    Data1: 305023452
+    Data2: 1137838900
+    Data3: -969325676
+    Data4: -1080402572
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4500
 --- !u!114 &68422989058307811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2330,8 +4445,7 @@ MonoBehaviour:
     Data2: 1179700167
     Data3: 144442045
     Data4: -1616504859
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2365,6 +4479,105 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &97760953243782690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &341244262133272782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/MenuOpen
+  m_EditorClassIdentifier: 
+  Path: event:/UI/MenuOpen
+  Guid:
+    Data1: -151158477
+    Data2: 1220122341
+    Data3: -1711052662
+    Data4: 1292830215
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 365
+--- !u!114 &436135384159477908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGameplay/MusicZone
+  m_EditorClassIdentifier: 
+  Name: MusicZone
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 0
+--- !u!114 &506332996808209543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &613803866129806523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2383,13 +4596,12 @@ MonoBehaviour:
     Data2: 1230907618
     Data3: 206734527
     Data4: -1217620208
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 753743366174117027}
+  - {fileID: 4687067359858233634}
   MinDistance: 1
   MaxDistance: 20
   Length: 47213
@@ -2465,6 +4677,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &776574516787367431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Speech/2ndInfoPoint
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Speech/2ndInfoPoint
+  Guid:
+    Data1: 655202212
+    Data2: 1205701359
+    Data3: -30268030
+    Data4: 1299414300
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2026
 --- !u!114 &837654944821204016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2509,8 +4748,7 @@ MonoBehaviour:
     Data2: 1093951665
     Data3: 1126125483
     Data4: -141884798
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -2518,6 +4756,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 40
   Length: 2919
+--- !u!114 &867998519391172113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &908894454811307694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2536,8 +4798,7 @@ MonoBehaviour:
     Data2: 1085778384
     Data3: -841493588
     Data4: 1654667717
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2545,6 +4806,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &927918706664523844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &993024429111555552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2571,6 +4856,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3818
+--- !u!114 &1018462989068417230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Locomotion/EllenFootstepLand
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Locomotion/EllenFootstepLand
+  Guid:
+    Data1: 884784157
+    Data2: 1158478514
+    Data3: -743765368
+    Data4: 1502181668
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3948584409056818861}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 501
 --- !u!114 &1159418977193791328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2615,6 +4928,80 @@ MonoBehaviour:
     Data2: 1191789151
     Data3: 2056403096
     Data4: -32911532
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1188148381149200062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &1225818180547434835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1422480201300626700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Attacks/Ranged/EllenRangedAttack
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Attacks/Ranged/EllenRangedAttack
+  Guid:
+    Data1: -113969316
+    Data2: 1081750957
+    Data3: -1276135509
+    Data4: -1237972777
   Banks:
   - {fileID: 6604917999249015160}
   IsStream: 0
@@ -2648,6 +5035,34 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &1432788574101744178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/sliders
+  m_EditorClassIdentifier: 
+  Path: event:/UI/sliders
+  Guid:
+    Data1: 957496271
+    Data2: 1223389054
+    Data3: -466882651
+    Data4: 2014119607
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5844815334031482319}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1442633728910953850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2666,15 +5081,14 @@ MonoBehaviour:
     Data2: 1106877916
     Data3: -121365336
     Data4: -714362805
-  Banks:
-  - {fileID: 6604917999249015160}
-  IsStream: 0
+  Banks: []
+  IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 143484
+  Length: 105000
 --- !u!114 &1628656309983224419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2727,6 +5141,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &1660321440785947347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/DestructableWall
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/DestructableWall
+  Guid:
+    Data1: 242124066
+    Data2: 1224153373
+    Data3: -228503660
+    Data4: 1172784057
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1723745768284890473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2753,6 +5194,83 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 50
+--- !u!114 &1815341489821053735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/snp_muteambiance
+  m_EditorClassIdentifier: 
+  Path: snapshot:/snp_muteambiance
+  Guid:
+    Data1: -583174672
+    Data2: 1092247890
+    Data3: 207164605
+    Data4: -231740535
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &1846842004240737303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Gunner/GunnerGrenadeExplosion
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Gunner/GunnerGrenadeExplosion
+  Guid:
+    Data1: -998486292
+    Data2: 1290595732
+    Data3: -1700536429
+    Data4: 1589458328
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 2.4
+  MaxDistance: 50
+  Length: 0
+--- !u!114 &1928240442407422956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &2022267069305899427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2797,8 +5315,7 @@ MonoBehaviour:
     Data2: 1153443710
     Data3: 38304930
     Data4: 1108464510
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2830,6 +5347,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &2091023505802812606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Emotes/EllenEmotesEffort
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Emotes/EllenEmotesEffort
+  Guid:
+    Data1: 131255357
+    Data2: 1153443710
+    Data3: 38304930
+    Data4: 1108464510
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &2164297777611219672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2855,6 +5399,56 @@ MonoBehaviour:
   Labels: []
   Exists: 0
 --- !u!114 &2310480281352552722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Chomper/ChomperAttack
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Chomper/ChomperAttack
+  Guid:
+    Data1: 897812864
+    Data2: 1179262860
+    Data3: 1715868082
+    Data4: -708091494
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 9
+  Length: 0
+--- !u!114 &2318370197048581531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &2320904399394256140
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2905,6 +5499,84 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &2398940382794731979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/MusicGunnerFight
+  m_EditorClassIdentifier: 
+  Path: event:/Music/MusicGunnerFight
+  Guid:
+    Data1: -2145256471
+    Data2: 1230907618
+    Data3: 206734527
+    Data4: -1217620208
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8464314858262087623}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 47213
+--- !u!114 &2444823008020660624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &2473386604565083163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Locomotion/EllenCrouch
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Locomotion/EllenCrouch
+  Guid:
+    Data1: -110009155
+    Data2: 1082818949
+    Data3: 1344674445
+    Data4: -1229131941
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 281
 --- !u!114 &2685380320793254616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2929,6 +5601,105 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &2722616271157632376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &2785967912020067254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/MusicDeathSting
+  m_EditorClassIdentifier: 
+  Path: event:/Music/MusicDeathSting
+  Guid:
+    Data1: 1352373567
+    Data2: 1114082865
+    Data3: -1652896359
+    Data4: 1855651603
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2822875642763309750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &2955550305058822077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &3051766913851091921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2955,6 +5726,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &3111082447073924319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &3116372759998083424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2981,6 +5776,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 574
+--- !u!114 &3157985081151091062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &3198596856507444875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3005,6 +5824,57 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &3208164522286194694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/CrateSmash
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/CrateSmash
+  Guid:
+    Data1: 581055349
+    Data2: 1326067362
+    Data3: 1466230168
+    Data4: 1164573315
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3246969837961141200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &3264088993489095339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3023,13 +5893,12 @@ MonoBehaviour:
     Data2: 1223389054
     Data3: -466882651
     Data4: 2014119607
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 2685380320793254616}
+  - {fileID: 5850212524284222304}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -3051,8 +5920,7 @@ MonoBehaviour:
     Data2: 1220820296
     Data3: -2105419376
     Data4: 1717150905
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -3060,6 +5928,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 156300
+--- !u!114 &3329908216199972794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music_menu
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music_menu
+  Guid:
+    Data1: 1001184197
+    Data2: 1335595269
+    Data3: 545893013
+    Data4: -1231618633
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3818
+--- !u!114 &3376843935171413957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Locomotion/EllenCrouchGun
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Locomotion/EllenCrouchGun
+  Guid:
+    Data1: 1476570853
+    Data2: 1211656484
+    Data3: 462630784
+    Data4: 2003795952
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 281
 --- !u!114 &3385273597354747072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3086,6 +6008,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &3441469282641175632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Gunner/GunnerImpact
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Gunner/GunnerImpact
+  Guid:
+    Data1: -983374710
+    Data2: 1262659740
+    Data3: 52682672
+    Data4: -1858214586
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 520
 --- !u!114 &3459923451014209609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3154,6 +6103,128 @@ MonoBehaviour:
     Data2: 1240875110
     Data3: 98901679
     Data4: 1725336042
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3698852526166927930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &3702786433054130028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGameplay/MusicZone
+  m_EditorClassIdentifier: 
+  Name: MusicZone
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 0
+--- !u!114 &3831845482432321295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &3948584409056818861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &3952092668184853510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Attacks/Melee/EllenMeleeAttack
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Attacks/Melee/EllenMeleeAttack
+  Guid:
+    Data1: -779190942
+    Data2: 1204764946
+    Data3: 1114337670
+    Data4: -2129351344
   Banks:
   - {fileID: 6604917999249015160}
   IsStream: 0
@@ -3257,8 +6328,7 @@ MonoBehaviour:
     Data2: 1113776306
     Data3: -988102511
     Data4: -1160069318
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3266,6 +6336,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 70
   Length: 0
+--- !u!114 &4291254715907041938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &4309475891747556031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &4313765642019681685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3317,6 +6435,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &4567166434605757627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &4603990164006767094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3335,8 +6477,7 @@ MonoBehaviour:
     Data2: 1204764946
     Data3: 1114337670
     Data4: -2129351344
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3344,6 +6485,56 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &4671615376876575079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Locomotion/EllenCrouchGun
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Locomotion/EllenCrouchGun
+  Guid:
+    Data1: 1476570853
+    Data2: 1211656484
+    Data3: 462630784
+    Data4: 2003795952
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 281
+--- !u!114 &4687067359858233634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &4713306672032668713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3365,6 +6556,54 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &4726072325156633661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &4747141792071445134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Labels: []
   Exists: 1
@@ -3392,6 +6631,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &4834969383639648168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Speech/3rdInfoPoint01
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Speech/3rdInfoPoint01
+  Guid:
+    Data1: 446887253
+    Data2: 1124340334
+    Data3: 352894651
+    Data4: 1367220493
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2026
 --- !u!114 &4949671475981867407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3418,6 +6684,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &4970119886430649117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &5034348121330774943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3436,8 +6726,7 @@ MonoBehaviour:
     Data2: 1253144037
     Data3: 1605646765
     Data4: 1110610009
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3445,6 +6734,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 50
+--- !u!114 &5143428778952263045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &5151995794731300243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3463,8 +6776,7 @@ MonoBehaviour:
     Data2: 1262659740
     Data3: 52682672
     Data4: -1858214586
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3472,6 +6784,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 520
+--- !u!114 &5180756585104448441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &5198255057682155138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &5375328306229128391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3490,8 +6850,7 @@ MonoBehaviour:
     Data2: 1205701359
     Data3: -30268030
     Data4: 1299414300
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3525,6 +6884,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 11800
+--- !u!114 &5541157046994781817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Gunner/GunnerSteamStage01
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Gunner/GunnerSteamStage01
+  Guid:
+    Data1: 867681322
+    Data2: 1220844280
+    Data3: -1493933137
+    Data4: -388727794
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 40
+  Length: 3601
 --- !u!114 &5639588732996010417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3536,6 +6922,57 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &5673569025953940594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Speech/1stInfoPoint
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Speech/1stInfoPoint
+  Guid:
+    Data1: -872331094
+    Data2: 1205363487
+    Data3: 245063831
+    Data4: 293640616
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2026
+--- !u!114 &5708803083617696359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
   m_EditorClassIdentifier: 
   Name: Material
   StudioPath: 
@@ -3617,8 +7054,7 @@ MonoBehaviour:
     Data2: 1215137774
     Data3: 45754503
     Data4: -1844518504
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3626,6 +7062,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 15
   Length: 0
+--- !u!114 &5844815334031482319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5850212524284222304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &5871114678992155891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3696,8 +7180,7 @@ MonoBehaviour:
     Data2: 1124340334
     Data3: 352894651
     Data4: 1367220493
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3705,6 +7188,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2026
+--- !u!114 &5968601433037429245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &5969219350269676100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3729,6 +7236,57 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &5983432319742657416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sliders/OnSlider
+  m_EditorClassIdentifier: 
+  Name: OnSlider
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6052128105088890803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Acid
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Acid
+  Guid:
+    Data1: -24201377
+    Data2: 1178425282
+    Data3: -391601492
+    Data4: 885113605
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27532
 --- !u!114 &6085468260134594889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3747,13 +7305,12 @@ MonoBehaviour:
     Data2: 1158478514
     Data3: -743765368
     Data4: 1502181668
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 7127806656932876819}
+  - {fileID: -482652353671418103}
   MinDistance: 1
   MaxDistance: 20
   Length: 501
@@ -3801,8 +7358,7 @@ MonoBehaviour:
     Data2: 1269039938
     Data3: -391642240
     Data4: -523672292
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3810,7 +7366,85 @@ MonoBehaviour:
   MinDistance: 3
   MaxDistance: 35
   Length: 1727
+--- !u!114 &6402407684435456521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Gunner/GunnerIntro
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Gunner/GunnerIntro
+  Guid:
+    Data1: 222528194
+    Data2: 1270411566
+    Data3: -500491854
+    Data4: 158314100
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &6449013726274342778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6550351596546619784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Locomotion/EllenSpawn
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Locomotion/EllenSpawn
+  Guid:
+    Data1: 745532354
+    Data2: 1107220928
+    Data3: -1532310117
+    Data4: -239014537
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6582432247367333061
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3897,10 +7531,58 @@ MonoBehaviour:
   Path: Assets/FMOD_project/2DGK/Build/Desktop/Master Bank.bank
   Name: Master Bank
   StudioPath: bank:/Master Bank
-  lastModified: 638170728990000000
+  lastModified: 638193156940000000
   FileSizes:
   - Name: Desktop
-    Value: 2238240
+    Value: 7432000
+  Exists: 1
+--- !u!114 &6648515422657194652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6827941477220777327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &6839434255200764985
 MonoBehaviour:
@@ -3920,8 +7602,7 @@ MonoBehaviour:
     Data2: 1335595269
     Data3: 545893013
     Data4: -1231618633
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -3929,6 +7610,57 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3818
+--- !u!114 &6940527759316534358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6978671986406870589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/MenuClose
+  m_EditorClassIdentifier: 
+  Path: event:/UI/MenuClose
+  Guid:
+    Data1: 1340673917
+    Data2: 1203692398
+    Data3: -1077095515
+    Data4: 1598157419
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 574
 --- !u!114 &7068352868600419051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3973,8 +7705,7 @@ MonoBehaviour:
     Data2: 1092247890
     Data3: 207164605
     Data4: -231740535
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -4057,6 +7788,108 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5000
+--- !u!114 &7468848817116589829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/SwitchShieldUpActivated
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/SwitchShieldUpActivated
+  Guid:
+    Data1: 976998842
+    Data2: 1173190891
+    Data3: 247303570
+    Data4: 2060780781
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7592162481614552457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Gunner/GunnerDeathAll
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Gunner/GunnerDeathAll
+  Guid:
+    Data1: 1603909820
+    Data2: 1299897199
+    Data3: 976006276
+    Data4: 328955774
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7596106218767204801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &7605711257915676640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &7637300370612553081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4083,6 +7916,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 520
+--- !u!114 &7689782771815032879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Gunner/GunnerLaserFire
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Gunner/GunnerLaserFire
+  Guid:
+    Data1: 1986530957
+    Data2: 1311594177
+    Data3: 556312759
+    Data4: -34287307
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 4
+  MaxDistance: 55
+  Length: 0
 --- !u!114 &7713814789916498640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4125,8 +7985,7 @@ MonoBehaviour:
     Data2: 1206391008
     Data3: 854904509
     Data4: -820250622
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4152,8 +8011,7 @@ MonoBehaviour:
     Data2: 1109421572
     Data3: -1562027124
     Data4: -278641127
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -4185,6 +8043,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &7940724029652078573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Gunner/GunnerShieldOff
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Gunner/GunnerShieldOff
+  Guid:
+    Data1: 1592462586
+    Data2: 1179700167
+    Data3: 144442045
+    Data4: -1616504859
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8080895071555907908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4211,6 +8096,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &8122963939435027560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstepLand/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &8177593295710533019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4237,6 +8146,102 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 365
+--- !u!114 &8257032079091477494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &8573937907099142156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &8590274383939637239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8637192955670053020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
 --- !u!114 &8679941752309364550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4255,13 +8260,12 @@ MonoBehaviour:
     Data2: 1324343398
     Data3: 1818452911
     Data4: -1780652067
-  Banks:
-  - {fileID: 6604917999249015160}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 5765565720178020538}
+  - {fileID: -933226122203118625}
   MinDistance: 1
   MaxDistance: 20
   Length: 5000
@@ -4315,7 +8319,161 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &8885472155751578155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ellen/Locomotion/EllenJump
+  m_EditorClassIdentifier: 
+  Path: event:/Ellen/Locomotion/EllenJump
+  Guid:
+    Data1: -1040057233
+    Data2: 1299177666
+    Data3: 1169684628
+    Data4: -1922635038
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 609
+--- !u!114 &8946863738104602645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 0
+--- !u!114 &9005518632284915362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicGunnerFight/round
+  m_EditorClassIdentifier: 
+  Name: round
+  StudioPath: 
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &9078612161412381764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/PushClayBoxEnd
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/PushClayBoxEnd
+  Guid:
+    Data1: -672948527
+    Data2: 1253144037
+    Data3: 1605646765
+    Data4: 1110610009
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 50
+--- !u!114 &9122527021613138826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/MusicGameplay
+  m_EditorClassIdentifier: 
+  Path: event:/Music/MusicGameplay
+  Guid:
+    Data1: 1935697021
+    Data2: 1106877916
+    Data3: -121365336
+    Data4: -714362805
+  Banks:
+  - {fileID: 6604917999249015160}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2019083140269023779}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 283107
 --- !u!114 &9167670462965803738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EllenFootstep/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &9216004064242084946
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

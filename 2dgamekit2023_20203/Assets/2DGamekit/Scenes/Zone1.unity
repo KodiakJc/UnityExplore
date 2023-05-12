@@ -21751,7 +21751,7 @@ MonoBehaviour:
   PlayEvent: 5
   StopEvent: 0
   AllowFadeout: 1
-  TriggerOnce: 0
+  TriggerOnce: 1
   Preload: 0
   Params: []
   OverrideAttenuation: 0
@@ -21781,7 +21781,7 @@ MonoBehaviour:
   PlayEvent: 5
   StopEvent: 0
   AllowFadeout: 1
-  TriggerOnce: 0
+  TriggerOnce: 1
   Preload: 0
   Params: []
   OverrideAttenuation: 0

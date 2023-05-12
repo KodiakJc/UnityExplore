@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Snapshot" id="{dd3d75f0-6152-411a-bd14-590c89eb2ff2}">
 		<property name="name">
 			<value>snp_muteambiance</value>
