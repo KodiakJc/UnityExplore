@@ -9975,11 +9975,11 @@ MonoBehaviour:
   CollisionTag: 'Material: Stone'
   EventReference:
     Guid:
-      Data1: -1284032034
-      Data2: 1085304192
-      Data3: 955967133
-      Data4: -2145428871
-    Path: event:/Environment/AcidPoolSplash
+      Data1: -1673380724
+      Data2: 1246441557
+      Data3: -1279188043
+      Data4: 2094406619
+    Path: event:/Environment/SplashCube
   Event: 
   PlayEvent: 5
   StopEvent: 0
@@ -9988,5 +9988,5 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
