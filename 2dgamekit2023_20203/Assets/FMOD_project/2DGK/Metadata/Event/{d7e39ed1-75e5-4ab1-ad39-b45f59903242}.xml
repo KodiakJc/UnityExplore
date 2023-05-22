@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d7e39ed1-75e5-4ab1-ad39-b45f59903242}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>PushClayBoxEnd</value>
 		</property>

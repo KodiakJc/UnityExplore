@@ -4,6 +4,9 @@
 		<property name="note">
 			<value>unmute ambiance à la fin du combat avec le boss</value>
 		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>UnmuteAmbiance</value>
 		</property>
@@ -45,9 +48,6 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{d4f15acb-9d22-400e-beab-fe4bd4993c4b}">
-		<property name="uiTrackHeight">
-			<value>28</value>
-		</property>
 		<relationship name="mixerGroup">
 			<destination>{8bb6cb07-ea7f-49ec-acdc-f383a3ac84e7}</destination>
 		</relationship>
@@ -64,15 +64,8 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d476bff9-4458-49e7-aee2-7f2964fe60e6}" />
-	<object class="MarkerTrack" id="{ca62cdf7-04bd-4d10-8557-d972c916be63}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
-	</object>
+	<object class="MarkerTrack" id="{ca62cdf7-04bd-4d10-8557-d972c916be63}" />
 	<object class="GroupTrack" id="{edfb4c4b-159d-4281-b323-11f79473cee8}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{d32013e5-0a07-46d2-8a8e-bf9bce3499da}</destination>
 		</relationship>
@@ -81,9 +74,6 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{57074c84-dee8-4330-abc0-a186a8929780}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{6bf1d297-0d25-4a0e-b3ff-4db42d42a94e}</destination>
 		</relationship>

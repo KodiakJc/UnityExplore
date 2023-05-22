@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{8da722ec-06e6-40b7-8fe3-3f26945e2be6}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>MuteAmbiance</value>
 		</property>
@@ -41,9 +44,6 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{388b62dd-da20-46bc-942b-27d7daf91ec1}">
-		<property name="uiTrackHeight">
-			<value>28</value>
-		</property>
 		<relationship name="mixerGroup">
 			<destination>{203f3a6a-35cc-4d8b-ab82-5aaf8b1e4792}</destination>
 		</relationship>
@@ -60,15 +60,8 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1e9d288d-000e-4f1d-88a8-86e5402d12e2}" />
-	<object class="MarkerTrack" id="{244b2953-e4dc-4fab-9fb9-efb690b5ee2c}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
-	</object>
+	<object class="MarkerTrack" id="{244b2953-e4dc-4fab-9fb9-efb690b5ee2c}" />
 	<object class="GroupTrack" id="{7b70416a-5fba-4d5d-9730-50447d712599}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{6fee9571-aeec-4a2d-b0b4-3d39edcff2b7}</destination>
 		</relationship>

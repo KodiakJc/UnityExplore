@@ -4,6 +4,9 @@
 		<property name="note">
 			<value>ok</value>
 		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>MusicGameplay</value>
 		</property>

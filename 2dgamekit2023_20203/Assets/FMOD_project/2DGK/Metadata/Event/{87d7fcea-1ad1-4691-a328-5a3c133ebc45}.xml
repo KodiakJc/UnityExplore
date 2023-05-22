@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{87d7fcea-1ad1-4691-a328-5a3c133ebc45}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>WaterDrop</value>
 		</property>
@@ -209,7 +212,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-12</value>
+			<value>-32</value>
 		</property>
 		<property name="curveShape">
 			<value>0.64855355</value>
@@ -220,7 +223,7 @@
 			<value>12</value>
 		</property>
 		<property name="value">
-			<value>-21</value>
+			<value>-52.3333244</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.15642029</value>
@@ -307,7 +310,6 @@
 		<property name="name">
 			<value>Attenuation Ran</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-6</value>
 		</property>
@@ -316,7 +318,6 @@
 		<property name="name">
 			<value>3D Attributes</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -352,7 +353,6 @@
 		<property name="name">
 			<value>Overall Gain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
