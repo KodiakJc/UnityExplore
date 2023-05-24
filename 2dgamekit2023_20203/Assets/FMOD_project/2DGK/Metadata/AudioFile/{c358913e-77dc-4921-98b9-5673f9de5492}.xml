@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c358913e-77dc-4921-98b9-5673f9de5492}">
+		<property name="assetPath">
+			<value>Gunner_Grenade_Launch.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.2546666666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a5dc1744-e8c3-4327-8c35-87ad8b91160c}</destination>
+		</relationship>
+	</object>
+</objects>

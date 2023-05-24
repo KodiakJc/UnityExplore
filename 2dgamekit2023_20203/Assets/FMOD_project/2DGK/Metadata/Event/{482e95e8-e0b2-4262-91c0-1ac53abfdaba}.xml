@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{482e95e8-e0b2-4262-91c0-1ac53abfdaba}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>GunnerGrenadeLaunch</value>
 		</property>
@@ -63,11 +66,18 @@
 	</object>
 	<object class="MarkerTrack" id="{2b7bf5d5-5a13-4030-bdf1-bd267e78ed42}" />
 	<object class="GroupTrack" id="{822ed2cd-f71b-4e40-8941-d370cb64a656}">
+		<relationship name="modules">
+			<destination>{de8bdd2a-b293-4b00-8201-96b156bbac14}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{80cd2407-715b-4d1a-be20-d01acd68e97c}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{28f0b282-8b6b-4c9f-bb31-e97541400483}" />
+	<object class="Timeline" id="{28f0b282-8b6b-4c9f-bb31-e97541400483}">
+		<relationship name="modules">
+			<destination>{de8bdd2a-b293-4b00-8201-96b156bbac14}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{bcd0186e-189f-4400-bce5-70ea1c92ea36}">
 		<relationship name="effectChain">
 			<destination>{70977a56-aafb-4d56-a87c-965ced2611e5}</destination>
@@ -85,9 +95,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d1b72017-1c77-4f55-9e60-92893d80b74d}" />
+	<object class="SingleSound" id="{de8bdd2a-b293-4b00-8201-96b156bbac14}">
+		<property name="length">
+			<value>1.2546666666666666</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{c358913e-77dc-4921-98b9-5673f9de5492}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{80cd2407-715b-4d1a-be20-d01acd68e97c}">
 		<property name="color">
 			<value>Red</value>
+		</property>
+		<property name="volume">
+			<value>-16</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d18e7d62-4112-47cf-8671-6b4250ad1481}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>EllenMeleeAttack</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{dd9db6dd-350f-4c42-9273-fdf56f56898d}</destination>
@@ -59,11 +62,18 @@
 	<object class="EventAutomatableProperties" id="{b27c8c26-9441-49ef-805a-a5ffa2f8e780}" />
 	<object class="MarkerTrack" id="{f5e03586-38a4-4a1e-9f6b-2f9c84a2854f}" />
 	<object class="GroupTrack" id="{74fe7156-96f3-41a1-b245-555feffaad20}">
+		<relationship name="modules">
+			<destination>{f8ca3de3-cb9d-48a9-80e1-c22d2a3e5f71}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{8a730066-fbf3-496e-b8bf-1a98823fa6c4}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{0fd9e6bd-8593-48b1-a847-fd072a548952}" />
+	<object class="Timeline" id="{0fd9e6bd-8593-48b1-a847-fd072a548952}">
+		<relationship name="modules">
+			<destination>{f8ca3de3-cb9d-48a9-80e1-c22d2a3e5f71}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{a4c76912-f9c7-41bf-bd0d-0a21b0263863}">
 		<relationship name="effectChain">
 			<destination>{d5a57e78-62e6-404d-bdfa-3e5d35a09c43}</destination>
@@ -81,6 +91,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{dd8d3ff0-c64a-410e-9f17-9d40b470e96a}" />
+	<object class="SingleSound" id="{f8ca3de3-cb9d-48a9-80e1-c22d2a3e5f71}">
+		<property name="length">
+			<value>0.41866666666666669</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{0d712415-3c9c-4b04-b321-ef38505a3f6e}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{8a730066-fbf3-496e-b8bf-1a98823fa6c4}">
 		<property name="color">
 			<value>Yellow</value>
