@@ -3686,7 +3686,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 508513228}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
         m_Mode: 5
         m_Arguments:
@@ -45059,7 +45059,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1261405043}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
         m_Mode: 5
         m_Arguments:
@@ -51000,7 +51000,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58b0199251cb9814b9eed2b7fdef3a12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickup_weapon: event:/Interactables/SpaceShotgun
+  pickup_weapon:
+    Guid:
+      Data1: 1008073648
+      Data2: 1325504620
+      Data3: -1480127840
+      Data4: 610278788
+    Path: event:/Interactables/SpaceShotgun
 --- !u!1 &1897353708
 GameObject:
   m_ObjectHideFlags: 0
@@ -51878,6 +51884,11 @@ PrefabInstance:
     - target: {fileID: 4512973363142284, guid: b3bb281a13618314da45e7c0d01d9f5f, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199293892541939254, guid: b3bb281a13618314da45e7c0d01d9f5f,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3bb281a13618314da45e7c0d01d9f5f, type: 3}

@@ -31,4 +31,14 @@ public class audioplay_enemies : MonoBehaviour
         FMODUnity.RuntimeManager.PlayOneShot(path, transform.position);
     }
 
+     void LightningCharge(string path)
+    {
+        FMODUnity.RuntimeManager.PlayOneShot(path, transform.position);
+    }
+
+     void LaserCharge(string path)
+    {
+        FMODUnity.RuntimeManager.PlayOneShot(path, transform.position);
+    }
+
 }

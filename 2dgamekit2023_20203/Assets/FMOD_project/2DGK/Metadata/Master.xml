@@ -47,7 +47,7 @@
 			<value>Gain</value>
 		</property>
 		<property name="value">
-			<value>-9.99999975e-06</value>
+			<value>0</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,-80.000000)(1.000000,0.000000)}</value>
@@ -57,7 +57,6 @@
 		<property name="name">
 			<value>Room Properties</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>0</value>
 		</property>
