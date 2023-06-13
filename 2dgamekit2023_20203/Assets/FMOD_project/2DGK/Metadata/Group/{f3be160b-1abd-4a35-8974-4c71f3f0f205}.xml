@@ -7,6 +7,9 @@
 		<property name="name">
 			<value>Ellen</value>
 		</property>
+		<relationship name="masters">
+			<destination>{453f2ae8-89e3-4921-8cc0-f0cdfba30332}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{37b74804-5863-40f0-8878-367453e83287}</destination>
 		</relationship>

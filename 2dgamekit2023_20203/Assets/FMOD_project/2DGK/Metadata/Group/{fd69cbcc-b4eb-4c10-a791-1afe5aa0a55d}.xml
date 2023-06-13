@@ -7,6 +7,9 @@
 		<property name="name">
 			<value>HubLayer1</value>
 		</property>
+		<relationship name="masters">
+			<destination>{453f2ae8-89e3-4921-8cc0-f0cdfba30332}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{ffc2d979-401a-4fc6-8130-ebf432601fda}</destination>
 		</relationship>

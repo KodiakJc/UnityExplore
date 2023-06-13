@@ -69,6 +69,9 @@
 	</object>
 	<object class="Timeline" id="{2d2c9e62-5fda-424e-a0d1-2c42d92e81ee}" />
 	<object class="EventMixerMaster" id="{7a88c35f-7ff7-498d-a4b4-c0ec44e2d7dc}">
+		<property name="volume">
+			<value>-14</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{a54e48e9-f347-4484-b059-829cbc882d4e}</destination>
 		</relationship>

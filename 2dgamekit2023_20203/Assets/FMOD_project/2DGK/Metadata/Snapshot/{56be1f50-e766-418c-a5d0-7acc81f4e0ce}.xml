@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Snapshot" id="{56be1f50-e766-418c-a5d0-7acc81f4e0ce}">
+		<property name="name">
+			<value>DeathSting</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{24a8881b-102f-4314-bb3d-8e057c0cb460}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{3d9528e5-2980-4f01-9aac-368d6d7b7bd1}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{79812451-80bf-4d41-8027-f1ff182cd498}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{bcf087e2-be0d-4f46-b8d5-5f988959523f}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{49b242ec-d902-4eea-b2fb-53f3cdbcb553}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{afbf608f-f367-4b71-a738-53fdf77a92ee}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{60b9acd3-f80a-4e94-9436-f11423c9df92}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{3d9528e5-2980-4f01-9aac-368d6d7b7bd1}" />
+	<object class="MarkerTrack" id="{79812451-80bf-4d41-8027-f1ff182cd498}" />
+	<object class="Timeline" id="{bcf087e2-be0d-4f46-b8d5-5f988959523f}" />
+	<object class="SnapshotMasterTrack" id="{49b242ec-d902-4eea-b2fb-53f3cdbcb553}" />
+	<object class="SnapshotProperty" id="{afbf608f-f367-4b71-a738-53fdf77a92ee}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{453f2ae8-89e3-4921-8cc0-f0cdfba30332}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{60b9acd3-f80a-4e94-9436-f11423c9df92}">
+		<relationship name="mixerStrip">
+			<destination>{453f2ae8-89e3-4921-8cc0-f0cdfba30332}</destination>
+		</relationship>
+	</object>
+</objects>

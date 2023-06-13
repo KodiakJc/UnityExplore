@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{16d7c647-dae4-42f1-b963-715ad720aba7}">
 		<property name="name">
 			<value>Enemies</value>
 		</property>
+		<relationship name="masters">
+			<destination>{453f2ae8-89e3-4921-8cc0-f0cdfba30332}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{4c04939b-23af-4a98-abef-fdb2bc7f6eac}</destination>
 		</relationship>

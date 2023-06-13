@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{4793af96-0a59-43e2-9db4-4ac3bc93d621}">
 		<property name="volume">
 			<value>-9.5</value>
@@ -7,6 +7,9 @@
 		<property name="name">
 			<value>Environment</value>
 		</property>
+		<relationship name="masters">
+			<destination>{453f2ae8-89e3-4921-8cc0-f0cdfba30332}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{ac36249a-e030-4ac3-9bb9-88b3fd165613}</destination>
 		</relationship>
