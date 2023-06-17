@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{9e2cf884-20ab-4a01-95b3-3063b4263b60}">
+		<property name="assetPath">
+			<value>Dirt_Step_Layer1_2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.38933333333333331</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a5dc1744-e8c3-4327-8c35-87ad8b91160c}</destination>
+		</relationship>
+	</object>
+</objects>
