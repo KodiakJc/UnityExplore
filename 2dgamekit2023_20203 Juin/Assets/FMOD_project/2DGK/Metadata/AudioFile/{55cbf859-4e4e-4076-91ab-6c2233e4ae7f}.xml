@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{55cbf859-4e4e-4076-91ab-6c2233e4ae7f}">
+		<property name="assetPath">
+			<value>BossCinematic+CombatLoop_Layer2 - Trimmed.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>13.426583333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a5dc1744-e8c3-4327-8c35-87ad8b91160c}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -9778,10 +9778,10 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -998486292
-      Data2: 1290595732
-      Data3: -1700536429
-      Data4: 1589458328
+      Data1: -1603953827
+      Data2: 1269873434
+      Data3: -492190294
+      Data4: 1270012921
     Path: event:/Enemies/Gunner/GunnerGrenadeExplosion
   Event: 
   PlayEvent: 1
@@ -9791,8 +9791,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  OverrideMinDistance: 2.4
+  OverrideMaxDistance: 50
 --- !u!1 &1678972646672638
 GameObject:
   m_ObjectHideFlags: 0

@@ -30926,7 +30926,7 @@ MonoBehaviour:
       Data3: -1562027124
       Data4: -278641127
     Path: event:/Ellen/Speech/3rdInfoPoint02
-  Event: event:/Ellen/Speech/3rdInfoPoint02
+  Event: 
   PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1

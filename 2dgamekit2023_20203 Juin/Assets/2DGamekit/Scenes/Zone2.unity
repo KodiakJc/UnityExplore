@@ -13558,9 +13558,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  parameter: MusicZone
+  Parameter: MusicZone
   TriggerEvent: 5
-  value: 2
+  Value: 2
 --- !u!212 &454955538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19641,9 +19641,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  parameter: MusicZone
+  Parameter: MusicZone
   TriggerEvent: 5
-  value: 5
+  Value: 5
 --- !u!212 &953508060
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22155,6 +22155,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7893355930562057968, guid: 5a4dedcc0d105f34da4eed8c2a3f3f67,
         type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Interactables/DoorLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893355930562057968, guid: 5a4dedcc0d105f34da4eed8c2a3f3f67,
+        type: 3}
       propertyPath: OverrideMaxDistance
       value: 20
       objectReference: {fileID: 0}
@@ -22166,22 +22171,22 @@ PrefabInstance:
     - target: {fileID: 7893355930562057968, guid: 5a4dedcc0d105f34da4eed8c2a3f3f67,
         type: 3}
       propertyPath: EventReference.Guid.Data1
-      value: -960721210
+      value: 170380999
       objectReference: {fileID: 0}
     - target: {fileID: 7893355930562057968, guid: 5a4dedcc0d105f34da4eed8c2a3f3f67,
         type: 3}
       propertyPath: EventReference.Guid.Data2
-      value: 1085778384
+      value: 1246219317
       objectReference: {fileID: 0}
     - target: {fileID: 7893355930562057968, guid: 5a4dedcc0d105f34da4eed8c2a3f3f67,
         type: 3}
       propertyPath: EventReference.Guid.Data3
-      value: -841493588
+      value: -1045705843
       objectReference: {fileID: 0}
     - target: {fileID: 7893355930562057968, guid: 5a4dedcc0d105f34da4eed8c2a3f3f67,
         type: 3}
       propertyPath: EventReference.Guid.Data4
-      value: 1654667717
+      value: 1623727432
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a4dedcc0d105f34da4eed8c2a3f3f67, type: 3}
@@ -23022,9 +23027,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  parameter: MusicZone
+  Parameter: MusicZone
   TriggerEvent: 5
-  value: 7
+  Value: 7
 --- !u!212 &1344349574
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23085,8 +23090,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344349570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.0956, y: -5.2932, z: 0}
-  m_LocalScale: {x: 1.7256881, y: 3.5812545, z: 1}
+  m_LocalPosition: {x: -5.3873, y: -5.2365, z: 0}
+  m_LocalScale: {x: 3.1420743, y: 3.6945884, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 29
@@ -24816,6 +24821,7 @@ GameObject:
   - component: {fileID: 1475300399}
   - component: {fileID: 1475300398}
   - component: {fileID: 1475300401}
+  - component: {fileID: 1475300403}
   m_Layer: 0
   m_Name: PortalInfoPost
   m_TagString: Untagged
@@ -25018,7 +25024,19 @@ MonoBehaviour:
   inventoryChecks: []
   OnButtonPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1475300403}
+        m_TargetAssemblyTypeName: FMODUnity.StudioGlobalParameterTrigger, FMODUnity
+        m_MethodName: TriggerParameters
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!58 &1475300400
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25064,8 +25082,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &1475300402
 Transform:
   m_ObjectHideFlags: 0
@@ -25081,6 +25099,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1475300403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475300397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Parameter: MusicZone
+  TriggerEvent: 0
+  Value: 8
 --- !u!1 &1480225934
 GameObject:
   m_ObjectHideFlags: 0

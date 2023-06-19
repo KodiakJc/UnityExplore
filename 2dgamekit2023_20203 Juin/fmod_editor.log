@@ -2,13 +2,11 @@
 [LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0x0.
 [LOG] SystemI::init                            : Initialize version=20211 (130436), maxchannels=256, flags=0x00020000
 [LOG] SystemI::setOutputInternal               : Setting output to 'FMOD Core Audio Output'
-[LOG] OutputCoreAudio::init                    : Output running 32 channels at 48000Hz sample rate.
+[LOG] OutputCoreAudio::init                    : Output running 2 channels at 48000Hz sample rate.
 [LOG] OutputCoreAudio::init                    : Maximum hardware read size: 512 samples, Software buffer size: 512 samples, Number of software buffers: 4.
-[LOG] DownMix::init                            : dspbuffersize: 512  rate: 48000. output speaker mode: 1, input speaker mode 3
-[LOG] DownMix::init                            : done.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x7fbbbb8e6808 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0x7ff1b417f808 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -26,135 +24,14 @@
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [WRN] EffectInstanceFactory::create            : Creating stub DSP for plugin 'Resonance Audio Listener'
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] SystemI::createSound                     : filename = Assets/FMOD_project/2DGK/Build/Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0x7fbb39a5b8c8, queue head = 0x7fbb9b847678, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fbb39a5b8c8
-[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMOD_project/2DGK/Build/Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 18083776
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 122048
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fbbb97f9ad0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 60000
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='The Explorer Tutorial', format=5, channels=2, frequency=48000, lengthbytes=1428256, lengthpcm=5040000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.652485.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fbb39a5b8c8
-[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Resource type 3 for instrument {1ae42cc3-bdba-432d-b516-a1518298427d} has returned 13 and will now stop.
-[LOG] SoundI::release                          : The Explorer Tutorial (0x7fbb39a5b8c8)
-[LOG] SoundI::release                          :     The Explorer Tutorial (0x7fbba97bb368)
-[LOG] SoundI::release                          :     The Explorer Tutorial (0x7fbba976ffa8)
-[LOG] SoundI::release                          : The Explorer Tutorial (0x7fbbba8b67e8)
-[LOG] SoundI::release                          :     The Explorer Tutorial (0x7fbba97c06d8)
-[LOG] SoundI::release                          :     The Explorer Tutorial (0x7fbba97bd728)
-[LOG] SoundI::release                          :  (0x7fbad9733418)
-[LOG] SoundI::release                          :     PlayerDeathSting (0x7fbad9733588)
-[LOG] SoundI::release                          :  (0x7fbb39fce018)
-[LOG] SoundI::release                          :     loop_stone (0x7fbb39fce188)
-[LOG] SoundI::release                          :  (0x7fbb1970a0a8)
-[LOG] SoundI::release                          :     Placeholder_Step_Grass_2 (0x7fba897d8b48)
-[LOG] SoundI::release                          :  (0x7fbb19719af8)
-[LOG] SoundI::release                          :     Placeholder_Step_Grass_1 (0x7fbb99722738)
-[LOG] SoundI::release                          :  (0x7fbb9bb4b1d8)
-[LOG] SoundI::release                          :     Ellen_Land_Dirt_1 (0x7fbb9bb4b348)
-[LOG] SoundI::release                          :  (0x7fbb9bb4ad48)
-[LOG] SoundI::release                          :     Ellen_Land_Dirt_2 (0x7fbb9bb4aeb8)
-[LOG] SoundI::release                          :  (0x7fbb9bb4b668)
-[LOG] SoundI::release                          :     Grass_Land_1 (0x7fbb9bb4b7d8)
-[LOG] SoundI::release                          :  (0x7fbb9bb48d68)
-[LOG] SoundI::release                          :     Grass_Land_2 (0x7fbb9bb48ed8)
-[LOG] SoundI::release                          :  (0x7fbb39fdfdc8)
-[LOG] SoundI::release                          :     Dirt_Step_Layer2_1 (0x7fbb39fdff38)
-[LOG] SoundI::release                          :  (0x7fbb39f5f538)
-[LOG] SoundI::release                          :     Dirt_Step_Layer2_2 (0x7fbb39f5f6a8)
-[LOG] SoundI::release                          :  (0x7fbb39fdf018)
-[LOG] SoundI::release                          :     Dirt_Step_Layer2_3 (0x7fbb39fdf188)
-[LOG] SoundI::release                          :  (0x7fbb39fcb708)
-[LOG] SoundI::release                          :     Dirt_Step_Layer2_4 (0x7fbb39fcb878)
-[LOG] SoundI::release                          :  (0x7fbb39fdf938)
-[LOG] SoundI::release                          :     Dirt_Step_Layer2_5 (0x7fbb39fdfaa8)
-[LOG] SoundI::release                          :  (0x7fbb39ffbe38)
-[LOG] SoundI::release                          :     Dirt_Step_Layer2_6 (0x7fbb39ffbfa8)
-[LOG] SoundI::release                          :  (0x7fbb39fcf6e8)
-[LOG] SoundI::release                          :     Dirt_Step_Layer2_8 (0x7fbb39fcf858)
-[LOG] SoundI::release                          :  (0x7fbb39fc99e8)
-[LOG] SoundI::release                          :     Dirt_Step_Layer2_7 (0x7fbb39fc9b58)
-[LOG] SoundI::release                          :  (0x7fbb39fcc4b8)
-[LOG] SoundI::release                          :     Grass_Step_Layer3_1 (0x7fbb39fcc628)
-[LOG] SoundI::release                          :  (0x7fbb39f7d9e8)
-[LOG] SoundI::release                          :     Grass_Step_Layer3_2 (0x7fbb39f842e8)
-[LOG] SoundI::release                          :  (0x7fbb39fcfb78)
-[LOG] SoundI::release                          :     Grass_Step_Layer3_3 (0x7fbb39fcfce8)
-[LOG] SoundI::release                          :  (0x7fba79a09a88)
-[LOG] SoundI::release                          :     Grass_Step_Layer3_4 (0x7fba79a06448)
-[LOG] SoundI::release                          :  (0x7fbb39fa4bc8)
-[LOG] SoundI::release                          :     Grass_Step_Layer1_1 (0x7fbb39f3b118)
-[LOG] SoundI::release                          :  (0x7fbb39fcdb88)
-[LOG] SoundI::release                          :     Grass_Step_Layer1_2 (0x7fbb39fcdcf8)
-[LOG] SoundI::release                          :  (0x7fbb39fcd6f8)
-[LOG] SoundI::release                          :     Grass_Step_Layer1_3 (0x7fbb39fcd868)
-[LOG] SoundI::release                          :  (0x7fbb39fcf258)
-[LOG] SoundI::release                          :     Grass_Step_Layer1_4 (0x7fbb39fcf3c8)
-[LOG] SoundI::release                          :  (0x7fbb39fcc948)
-[LOG] SoundI::release                          :     Grass_Step_Layer2_1 (0x7fbb39fccab8)
-[LOG] SoundI::release                          :  (0x7fbb39fcedc8)
-[LOG] SoundI::release                          :     Grass_Step_Layer2_2 (0x7fbb39fcef38)
-[LOG] SoundI::release                          :  (0x7fbb39fce938)
-[LOG] SoundI::release                          :     Grass_Step_Layer2_3 (0x7fbb39fceaa8)
-[LOG] SoundI::release                          :  (0x7fbb39fdeb88)
-[LOG] SoundI::release                          :     Grass_Step_Layer2_4 (0x7fbb39fdecf8)
-[LOG] SoundI::release                          :  (0x7fbb39fcd268)
-[LOG] SoundI::release                          :     Dirt_Step_Layer1_1 (0x7fbb39fcd3d8)
-[LOG] SoundI::release                          :  (0x7fbb39fce4a8)
-[LOG] SoundI::release                          :     Dirt_Step_Layer1_2 (0x7fbb39fce618)
-[LOG] SoundI::release                          :  (0x7fbb39fcc028)
-[LOG] SoundI::release                          :     Dirt_Step_Layer1_3 (0x7fbb39fcc198)
-[LOG] SoundI::release                          :  (0x7fbb39fca798)
-[LOG] SoundI::release                          :     Dirt_Step_Layer1_4 (0x7fbb39fca908)
-[LOG] SoundI::release                          :  (0x7fbb39a4ee28)
-[LOG] SoundI::release                          :     Dirt_Step_Layer1_5 (0x7fbb39a71398)
-[LOG] SoundI::release                          :  (0x7fbb39f5f0a8)
-[LOG] SoundI::release                          :     Dirt_Step_Layer1_6 (0x7fbb39f5f218)
-[LOG] SoundI::release                          :  (0x7fbb39fc9e78)
-[LOG] SoundI::release                          :     Dirt_Step_Layer1_7 (0x7fbb39fc9fe8)
-[LOG] SoundI::release                          :  (0x7fba79a09678)
-[LOG] SoundI::release                          :     Dirt_Step_Layer1_8 (0x7fba79a09338)
-[LOG] SoundI::release                          :  (0x7fbb39fde538)
-[LOG] SoundI::release                          :     Mech_Silence_2 (0x7fbb39fde6a8)
-[LOG] SoundI::release                          :  (0x7fbb39fcb0b8)
-[LOG] SoundI::release                          :     Mech_Silence_1 (0x7fbb39fcb228)
-[LOG] SoundI::release                          :  (0x7fbb39fdf4a8)
-[LOG] SoundI::release                          :     Mech_Step_Layer_1 (0x7fbb39fdf618)
-[LOG] SoundI::release                          :  (0x7fbb39fcac28)
-[LOG] SoundI::release                          :     Mech_Step_Layer_2 (0x7fbb39fcad98)
-[LOG] SoundI::release                          :  (0x7fbb39fc9558)
-[LOG] SoundI::release                          :     Mech_Step_Layer_3 (0x7fbb39fc96c8)
-[LOG] SoundI::release                          :  (0x7fbb39fde0a8)
-[LOG] SoundI::release                          :     Mech_Step_Layer_4 (0x7fbb39fde218)
-[LOG] SoundI::release                          :  (0x7fbb39fca308)
-[LOG] SoundI::release                          :     Mech_Step_Layer_5 (0x7fbb39fca478)
-[LOG] SoundI::release                          :  (0x7fbb39f5f9c8)
-[LOG] SoundI::release                          :     Mech_Step_Layer_6 (0x7fbb39fc9238)
-[LOG] SoundI::release                          :  (0x7fbb39fccdd8)
-[LOG] SoundI::release                          :     Mech_Step_Layer_7 (0x7fbb39fccf48)
-[LOG] SoundI::release                          :  (0x7fbb39fcbb98)
-[LOG] SoundI::release                          :     Ellen_Spawn (0x7fbb39fcbd08)
-[LOG] SoundI::release                          :  (0x7fbb9b89f448)
-[LOG] SoundI::release                          :     Cymbal2 (0x7fbb9b885108)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] ProfileClient::markForDead               : Closing client connection
-[ERR] FMOD_OS_Net_Read                         : read failed with errno 9
-[ERR] ProfileClient::recvThreadLoopFunction    : Recv thread loop returned 43
-[LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD profiler thread (send) finished.
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Listener'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[WRN] EffectInstanceFactory::create            : Creating stub DSP for plugin 'Resonance Audio Listener'
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
