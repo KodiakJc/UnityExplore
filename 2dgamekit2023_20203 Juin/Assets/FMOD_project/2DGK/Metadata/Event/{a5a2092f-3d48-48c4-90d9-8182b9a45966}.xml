@@ -39,6 +39,9 @@
 		<relationship name="timeline">
 			<destination>{40fdf4db-ca92-4603-a6b3-5a86e9affb73}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{63823a5f-c415-4b50-a006-2a2b6e544288}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{903cfe6e-e297-4164-b8d0-4abf911ffd12}</destination>
 		</relationship>
@@ -80,6 +83,13 @@
 		<relationship name="modules">
 			<destination>{ceff5849-f096-4bc1-a8c2-205a888f0969}</destination>
 			<destination>{a85ab338-40fd-433d-9e65-954e02c0ee08}</destination>
+			<destination>{a25bbf04-315d-4837-8374-c0ef17853a39}</destination>
+			<destination>{31f4a8cb-2971-4cda-8ede-59a32886b906}</destination>
+			<destination>{4ea8a822-319b-4ce0-a3bb-855350a82ae9}</destination>
+			<destination>{e1edef29-b478-48b3-bbe2-7343ee8cdedd}</destination>
+			<destination>{d161f527-a4d8-4229-85ac-dc1a40d1b286}</destination>
+			<destination>{67dbcb41-e96a-4b88-beb6-14e13fff4eb7}</destination>
+			<destination>{1206d48c-5160-4a79-9d46-610888f47e1e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{07e4c7e5-2125-46f0-8988-b33c787c0d92}</destination>
@@ -114,6 +124,20 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{c5de09fd-5f73-4068-b52d-2449b3879c6d}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{63823a5f-c415-4b50-a006-2a2b6e544288}">
+		<relationship name="modules">
+			<destination>{a25bbf04-315d-4837-8374-c0ef17853a39}</destination>
+			<destination>{31f4a8cb-2971-4cda-8ede-59a32886b906}</destination>
+			<destination>{4ea8a822-319b-4ce0-a3bb-855350a82ae9}</destination>
+			<destination>{e1edef29-b478-48b3-bbe2-7343ee8cdedd}</destination>
+			<destination>{d161f527-a4d8-4229-85ac-dc1a40d1b286}</destination>
+			<destination>{67dbcb41-e96a-4b88-beb6-14e13fff4eb7}</destination>
+			<destination>{1206d48c-5160-4a79-9d46-610888f47e1e}</destination>
+		</relationship>
+		<relationship name="preset">
+			<destination>{b13c3597-bb83-4b19-8d9a-bcd990ba4167}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e7c36029-5b78-4ba8-af16-d7a0b0a5648c}">
@@ -157,6 +181,68 @@
 		<relationship name="audioFile">
 			<destination>{d4cee8a0-4b70-46e2-a52b-7d18bad19638}</destination>
 		</relationship>
+	</object>
+	<object class="MultiSound" id="{a25bbf04-315d-4837-8374-c0ef17853a39}">
+		<property name="start">
+			<value>8</value>
+		</property>
+		<property name="length">
+			<value>4</value>
+		</property>
+		<property name="name">
+			<value>Zone 5 (boss)</value>
+		</property>
+	</object>
+	<object class="MultiSound" id="{31f4a8cb-2971-4cda-8ede-59a32886b906}">
+		<property name="start">
+			<value>7</value>
+		</property>
+		<property name="length">
+			<value>0.5</value>
+		</property>
+		<property name="name">
+			<value>Zone 4</value>
+		</property>
+	</object>
+	<object class="MultiSound" id="{4ea8a822-319b-4ce0-a3bb-855350a82ae9}">
+		<property name="start">
+			<value>6</value>
+		</property>
+		<property name="name">
+			<value>Zone 3 caverne</value>
+		</property>
+	</object>
+	<object class="MultiSound" id="{e1edef29-b478-48b3-bbe2-7343ee8cdedd}">
+		<property name="start">
+			<value>5</value>
+		</property>
+		<property name="name">
+			<value>Zone 3 ext</value>
+		</property>
+	</object>
+	<object class="MultiSound" id="{d161f527-a4d8-4229-85ac-dc1a40d1b286}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3</value>
+		</property>
+		<property name="name">
+			<value>Zone 2</value>
+		</property>
+	</object>
+	<object class="MultiSound" id="{67dbcb41-e96a-4b88-beb6-14e13fff4eb7}">
+		<property name="start">
+			<value>1</value>
+		</property>
+		<property name="name">
+			<value>Zone1</value>
+		</property>
+	</object>
+	<object class="MultiSound" id="{1206d48c-5160-4a79-9d46-610888f47e1e}">
+		<property name="name">
+			<value>Menu</value>
+		</property>
 	</object>
 	<object class="EventMixerGroup" id="{07e4c7e5-2125-46f0-8988-b33c787c0d92}">
 		<property name="color">

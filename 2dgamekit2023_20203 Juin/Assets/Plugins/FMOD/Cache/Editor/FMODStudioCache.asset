@@ -282,13 +282,13 @@ MonoBehaviour:
     Data4: -1557147382
   Banks:
   - {fileID: 322557147710739097}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 4674
+  Length: 1300
 --- !u!114 &-6569428726496360730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,11 +500,11 @@ MonoBehaviour:
   - {fileID: 322557147710739097}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 4500
+  Length: 76
 --- !u!114 &-4531667071354953107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -963,7 +963,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 50
+  Length: 570
 --- !u!114 &-165996184386915095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1121,9 +1121,9 @@ MonoBehaviour:
   - {fileID: 4630456290630247407}
   - {fileID: -7907069621561322911}
   - {fileID: -2889981645415893565}
-  - {fileID: 6018429200721558827}
   - {fileID: 8603046561017046565}
   - {fileID: -4434763249975867786}
+  - {fileID: 768677407719512397}
   EditorParameters:
   - {fileID: 6719290886178340736}
   - {fileID: 578970967294368636}
@@ -1133,7 +1133,7 @@ MonoBehaviour:
   - {fileID: 322557147710739097}
   StringsBanks:
   - {fileID: 5069059895120182341}
-  cacheTime: 638228976750000000
+  cacheTime: 638229479940000000
   cacheVersion: 131601
 --- !u!114 &253667235660193053
 MonoBehaviour:
@@ -1177,10 +1177,10 @@ MonoBehaviour:
   Path: Assets/FMOD_project/2DGK/Build/Desktop/Master Bank.bank
   Name: Master Bank
   StudioPath: bank:/Master Bank
-  lastModified: 638228976750000000
+  lastModified: 638229479940000000
   FileSizes:
   - Name: Desktop
-    Value: 18961248
+    Value: 20982752
   Exists: 1
 --- !u!114 &578970967294368636
 MonoBehaviour:
@@ -1206,6 +1206,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &768677407719512397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Gunner/GunnerImpact
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Gunner/GunnerImpact
+  Guid:
+    Data1: 2030621025
+    Data2: 1203275438
+    Data3: 1796805025
+    Data4: 2057130639
+  Banks:
+  - {fileID: 322557147710739097}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 393
 --- !u!114 &1333037273185820621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1226,13 +1253,13 @@ MonoBehaviour:
     Data4: -1042763148
   Banks:
   - {fileID: 322557147710739097}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1050
+  Length: 1501
 --- !u!114 &1406854228262225261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1600,7 +1627,7 @@ MonoBehaviour:
   - {fileID: -9096680362781567141}
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 3818
 --- !u!114 &4431540544528700042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1684,7 +1711,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 365
+  Length: 400
 --- !u!114 &4626167603673698705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1708,10 +1735,11 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: 4718456862438703039}
   MinDistance: 1
   MaxDistance: 20
-  Length: 156300
+  Length: 249579
 --- !u!114 &4630456290630247407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1739,6 +1767,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 234
+--- !u!114 &4718456862438703039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EnvironmentalAmbiance/MusicZone
+  m_EditorClassIdentifier: 
+  Name: MusicZone
+  StudioPath: 
+  Min: 0
+  Max: 12
+  Default: 0
+  ID:
+    data1: 1795638474
+    data2: 4101016075
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &4766820708649599333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1808,10 +1860,10 @@ MonoBehaviour:
   Path: Assets/FMOD_project/2DGK/Build/Desktop/Master Bank.strings.bank
   Name: Master Bank.strings
   StudioPath: bank:/Master Bank.strings
-  lastModified: 638228976750000000
+  lastModified: 638229479940000000
   FileSizes:
   - Name: Desktop
-    Value: 4862
+    Value: 4866
   Exists: 1
 --- !u!114 &5428108316252808037
 MonoBehaviour:
@@ -1972,33 +2024,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 429
---- !u!114 &6018429200721558827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/GunnerImpact
-  m_EditorClassIdentifier: 
-  Path: event:/GunnerImpact
-  Guid:
-    Data1: 2030621025
-    Data2: 1203275438
-    Data3: 1796805025
-    Data4: 2057130639
-  Banks:
-  - {fileID: 322557147710739097}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 393
 --- !u!114 &6038889663789052500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2026,7 +2051,7 @@ MonoBehaviour:
   - {fileID: -87068031639436744}
   MinDistance: 1
   MaxDistance: 20
-  Length: 2250
+  Length: 1130
 --- !u!114 &6416393611119281342
 MonoBehaviour:
   m_ObjectHideFlags: 0
