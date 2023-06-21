@@ -5,7 +5,7 @@
 			<value>AcidPoolSplash</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4bda6bb1-b56b-4aec-9855-6e01cc49ba27}</destination>
@@ -63,11 +63,18 @@
 	</object>
 	<object class="MarkerTrack" id="{f1aa044a-fe0f-4f14-9662-d0bb07ccbc34}" />
 	<object class="GroupTrack" id="{82730fb6-f4f5-4ab2-b3c7-39bf0e16e5e2}">
+		<relationship name="modules">
+			<destination>{41ab5619-2152-41c3-9591-2d0680d56a0c}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{e4ec53f4-d00a-4475-aba3-24cccfe0d1e1}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{0ca131db-fc11-4f21-9d85-41b4fb0f079a}" />
+	<object class="Timeline" id="{0ca131db-fc11-4f21-9d85-41b4fb0f079a}">
+		<relationship name="modules">
+			<destination>{41ab5619-2152-41c3-9591-2d0680d56a0c}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{35be9cae-6348-4f08-bc7f-40371311dfb3}">
 		<relationship name="effectChain">
 			<destination>{2129a321-d7da-4bd2-99ee-33b9b9280871}</destination>
@@ -85,6 +92,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9cb4077f-407c-4bad-aa08-891fe8603cfa}" />
+	<object class="SingleSound" id="{41ab5619-2152-41c3-9591-2d0680d56a0c}">
+		<property name="length">
+			<value>2.6289791666666673</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.20000000000000001</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{fed8f9e7-ec88-439f-a29f-2f85a97c6988}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{e4ec53f4-d00a-4475-aba3-24cccfe0d1e1}">
 		<property name="color">
 			<value>Yellow</value>

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{07d2cc3d-277e-44c0-a27c-48027ed31142}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="name">
 			<value>EllenEmotesEffort</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8c160c10-483d-4aee-896f-2def05a26ff8}</destination>
@@ -59,11 +62,18 @@
 	<object class="EventAutomatableProperties" id="{09d2c045-ad15-418d-8beb-f67206267b57}" />
 	<object class="MarkerTrack" id="{31107e8a-1807-49c8-a5b5-45271102f4fe}" />
 	<object class="GroupTrack" id="{30fd96e2-9bb7-4af1-b4f3-0c5e37fd7599}">
+		<relationship name="modules">
+			<destination>{84f549c4-7caf-4195-a756-3c532c517fd9}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{7e840a79-bb8b-4146-9132-76ce85ebda3d}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{8443dc2b-70b4-4c8e-9037-292f5f616d73}" />
+	<object class="Timeline" id="{8443dc2b-70b4-4c8e-9037-292f5f616d73}">
+		<relationship name="modules">
+			<destination>{84f549c4-7caf-4195-a756-3c532c517fd9}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{dfb629b7-2911-450c-81d0-8a04f91076bf}">
 		<relationship name="effectChain">
 			<destination>{ec490ea4-1c10-47ec-b69f-81553492c6b1}</destination>
@@ -81,9 +91,23 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{58144b88-6dfa-447e-92f3-c7c2fb771ef4}" />
+	<object class="SingleSound" id="{84f549c4-7caf-4195-a756-3c532c517fd9}">
+		<property name="length">
+			<value>0.39333333333333331</value>
+		</property>
+		<property name="pitch">
+			<value>-7</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{e65ade46-f1fd-4d38-94b2-f6b3717948e9}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{7e840a79-bb8b-4146-9132-76ce85ebda3d}">
 		<property name="color">
 			<value>Red</value>
+		</property>
+		<property name="volume">
+			<value>-14.5</value>
 		</property>
 		<property name="name">
 			<value>effort</value>
