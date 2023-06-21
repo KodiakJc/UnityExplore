@@ -99,13 +99,14 @@
 			<value>4.6742630385487525</value>
 		</property>
 		<property name="startOffset">
-			<value>49</value>
+			<value>49.5</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{da69d6bf-3028-4494-9028-52d173c30021}</destination>
+			<destination>{92a022ad-3493-49ec-83cb-2ad3ff0ad5d0}</destination>
 		</relationship>
 		<relationship name="sounds">
 			<destination>{e9866d5c-ba93-419c-bbb1-eaa679ba0617}</destination>
@@ -153,6 +154,17 @@
 	<object class="RandomizerModulator" id="{da69d6bf-3028-4494-9028-52d173c30021}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>startOffset</value>
+		</property>
+		<property name="amount">
+			<value>100</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{92a022ad-3493-49ec-83cb-2ad3ff0ad5d0}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>2.5</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{e9866d5c-ba93-419c-bbb1-eaa679ba0617}">

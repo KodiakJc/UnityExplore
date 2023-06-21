@@ -8,7 +8,7 @@
 			<value>PushClayBoxEnd</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f5f9ef54-a636-477d-bdad-22d62523041c}</destination>
@@ -67,6 +67,9 @@
 	</object>
 	<object class="MarkerTrack" id="{edbe0d8f-dea2-4c49-92ca-83c588a1a820}" />
 	<object class="GroupTrack" id="{dd69162c-d1da-4f12-8e73-f0b26c4f26a5}">
+		<relationship name="modules">
+			<destination>{6d89a38d-d6a2-4534-b033-d23712547c09}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{f6e0dcb4-f3b6-47f0-82a5-0c7e37cf7d35}</destination>
 		</relationship>
@@ -82,6 +85,7 @@
 	<object class="Timeline" id="{47cda607-50a7-464f-bdcf-1de4f4b62666}">
 		<relationship name="modules">
 			<destination>{92f67fe1-d0c9-4f75-bb7d-3cf6f86c573d}</destination>
+			<destination>{6d89a38d-d6a2-4534-b033-d23712547c09}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{988f7509-78ed-467c-8fdc-1e48347428f9}">
@@ -101,6 +105,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4ff36e3b-a697-4759-b2ae-8b140c81b6ae}" />
+	<object class="SingleSound" id="{6d89a38d-d6a2-4534-b033-d23712547c09}">
+		<property name="length">
+			<value>0.57047916666666665</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{c40e6518-b1ba-4e21-9319-a68c89fdfe50}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{f6e0dcb4-f3b6-47f0-82a5-0c7e37cf7d35}">
 		<property name="color">
 			<value>Green</value>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d12a7d97-87ee-486d-8728-ba0298e10e92}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>ChomperDie</value>
 		</property>

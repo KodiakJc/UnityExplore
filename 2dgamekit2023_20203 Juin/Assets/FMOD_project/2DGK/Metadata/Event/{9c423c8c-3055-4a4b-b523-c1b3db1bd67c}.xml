@@ -142,7 +142,7 @@
 	</object>
 	<object class="SingleSound" id="{8a7968e5-b8e7-44df-9ac1-678d3c714ae7}">
 		<property name="length">
-			<value>2.25</value>
+			<value>0.95000000000000007</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{232b1393-e282-4801-8681-1d33abd1e9cb}</destination>
@@ -187,7 +187,6 @@
 	<object class="MixerBusEffectChain" id="{f092494c-3343-4c74-867d-362b75da354d}">
 		<relationship name="effects">
 			<destination>{653825dc-9163-458b-934d-e2d63c741252}</destination>
-			<destination>{2ec38c64-5f87-4ee0-8e0d-62dd858dc7ee}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c3340947-fb67-4b08-9220-93c448c70ae0}" />
@@ -209,7 +208,7 @@
 	<object class="SpatialiserEffect" id="{ab072859-a204-431c-9c69-3f4bce331eea}" />
 	<object class="AutomationPoint" id="{361e13cf-0877-45fe-9f06-b7db96046ad9}">
 		<property name="position">
-			<value>0</value>
+			<value>0.55000000000000004</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -227,17 +226,9 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{653825dc-9163-458b-934d-e2d63c741252}" />
-	<object class="FlangerEffect" id="{2ec38c64-5f87-4ee0-8e0d-62dd858dc7ee}">
-		<property name="delay">
-			<value>0.98999995</value>
-		</property>
-		<property name="mix">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{080af94a-afa2-4ac5-b7ee-132d85409eab}">
 		<property name="position">
-			<value>0.75</value>
+			<value>0.46933333333333338</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -248,7 +239,7 @@
 	</object>
 	<object class="AutomationPoint" id="{c1ef0543-2acd-482c-8ce2-b3ff9ba288a5}">
 		<property name="position">
-			<value>2.25</value>
+			<value>0.95000000000000007</value>
 		</property>
 		<property name="value">
 			<value>0</value>
