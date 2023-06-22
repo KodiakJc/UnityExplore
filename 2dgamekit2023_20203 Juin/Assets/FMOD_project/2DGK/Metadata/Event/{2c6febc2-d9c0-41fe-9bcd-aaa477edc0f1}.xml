@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2c6febc2-d9c0-41fe-9bcd-aaa477edc0f1}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>EllenSpawn</value>
 		</property>

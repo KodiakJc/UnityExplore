@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{b37739de-6d80-40b0-9de6-fa38795a1f80}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>AcidPoolSplash</value>
 		</property>
@@ -53,7 +56,7 @@
 			<destination>{9cb4077f-407c-4bad-aa08-891fe8603cfa}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{8638b0ec-f383-4d23-87aa-5bbfa74c9c15}</destination>
+			<destination>{4793af96-0a59-43e2-9db4-4ac3bc93d621}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d283d119-9a48-4467-b598-2dd0d40a99de}">
@@ -76,6 +79,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{35be9cae-6348-4f08-bc7f-40371311dfb3}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{2129a321-d7da-4bd2-99ee-33b9b9280871}</destination>
 		</relationship>

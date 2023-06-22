@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9c423c8c-3055-4a4b-b523-c1b3db1bd67c}">
 		<property name="color">
-			<value>Yellow</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>SplashCube</value>
@@ -60,7 +60,7 @@
 			<destination>{ff189aeb-eb27-4403-a981-eeeffe229b28}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{8638b0ec-f383-4d23-87aa-5bbfa74c9c15}</destination>
+			<destination>{4793af96-0a59-43e2-9db4-4ac3bc93d621}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{b2a3ab23-1825-4bd1-a4fe-d80b2dcd5b21}" />
@@ -96,6 +96,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b1bdfcd1-aaeb-42f0-9fad-3abaafcd7e3d}">
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{f33cd1bd-f13c-4cdf-a69b-c158b453c760}</destination>
 		</relationship>
@@ -276,7 +279,7 @@
 			<value>0.012333152664859983</value>
 		</property>
 		<property name="value">
-			<value>7</value>
+			<value>-8</value>
 		</property>
 		<property name="curveShape">
 			<value>-1</value>
@@ -287,7 +290,7 @@
 			<value>0.054618247515808495</value>
 		</property>
 		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>-14.9999962</value>
 		</property>
 	</object>
 </objects>

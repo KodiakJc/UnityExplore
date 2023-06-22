@@ -156,7 +156,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 393
+  Length: 363
 --- !u!114 &-8612125619670062550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -451,6 +451,33 @@ MonoBehaviour:
   MinDistance: 2.4
   MaxDistance: 50
   Length: 1402
+--- !u!114 &-5344570008969711767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Rev Ext
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Rev Ext
+  Guid:
+    Data1: 1473789597
+    Data2: 1257007136
+    Data3: -1326938701
+    Data4: -1846812714
+  Banks:
+  - {fileID: 322557147710739097}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-4991214898991075113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -477,7 +504,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 872
+  Length: 839
 --- !u!114 &-4757796322953987931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -525,13 +552,13 @@ MonoBehaviour:
     Data4: 1634599341
   Banks:
   - {fileID: 322557147710739097}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 10389
+  Length: 9106
 --- !u!114 &-4434763249975867786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1124,6 +1151,8 @@ MonoBehaviour:
   - {fileID: 8603046561017046565}
   - {fileID: -4434763249975867786}
   - {fileID: 768677407719512397}
+  - {fileID: 4864300171003234520}
+  - {fileID: -5344570008969711767}
   EditorParameters:
   - {fileID: 6719290886178340736}
   - {fileID: 578970967294368636}
@@ -1133,7 +1162,7 @@ MonoBehaviour:
   - {fileID: 322557147710739097}
   StringsBanks:
   - {fileID: 5069059895120182341}
-  cacheTime: 638229753450000000
+  cacheTime: 638230432390000000
   cacheVersion: 131601
 --- !u!114 &253667235660193053
 MonoBehaviour:
@@ -1177,10 +1206,10 @@ MonoBehaviour:
   Path: Assets/FMOD_project/2DGK/Build/Desktop/Master Bank.bank
   Name: Master Bank
   StudioPath: bank:/Master Bank
-  lastModified: 638229753450000000
+  lastModified: 638230432390000000
   FileSizes:
   - Name: Desktop
-    Value: 21042752
+    Value: 21122464
   Exists: 1
 --- !u!114 &578970967294368636
 MonoBehaviour:
@@ -1227,7 +1256,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 322557147710739097}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -1365,7 +1394,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1125
+  Length: 1040
 --- !u!114 &2544747824194727933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1765,7 +1794,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 7.6
   Length: 234
 --- !u!114 &4718456862438703039
 MonoBehaviour:
@@ -1818,6 +1847,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5000
+--- !u!114 &4864300171003234520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/SpaceShipMotor
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/SpaceShipMotor
+  Guid:
+    Data1: 1283052864
+    Data2: 1092259737
+    Data3: 458580397
+    Data4: -83653759
+  Banks:
+  - {fileID: 322557147710739097}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8452
 --- !u!114 &5003711688126770256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1844,7 +1900,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 423
 --- !u!114 &5069059895120182341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1860,10 +1916,10 @@ MonoBehaviour:
   Path: Assets/FMOD_project/2DGK/Build/Desktop/Master Bank.strings.bank
   Name: Master Bank.strings
   StudioPath: bank:/Master Bank.strings
-  lastModified: 638229753450000000
+  lastModified: 638230432390000000
   FileSizes:
   - Name: Desktop
-    Value: 4866
+    Value: 4910
   Exists: 1
 --- !u!114 &5428108316252808037
 MonoBehaviour:
@@ -2078,7 +2134,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 15706
+  Length: 23134
 --- !u!114 &6719290886178340736
 MonoBehaviour:
   m_ObjectHideFlags: 0

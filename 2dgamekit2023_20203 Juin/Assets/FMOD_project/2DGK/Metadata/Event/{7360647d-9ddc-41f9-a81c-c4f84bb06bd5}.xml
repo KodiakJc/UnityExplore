@@ -720,6 +720,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{d4f59da8-077c-4b55-9860-c0e0395b0057}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>11.5</value>
 		</property>
@@ -1942,6 +1945,8 @@
 		<relationship name="automationPoints">
 			<destination>{d987af8a-072b-4fc9-9352-c8949afc339d}</destination>
 			<destination>{45745289-8876-4037-8798-8034efa17e3f}</destination>
+			<destination>{96daf300-4ed7-431c-8761-8c60eefc6198}</destination>
+			<destination>{22711daa-80cb-4034-a7c1-ab953089bc8c}</destination>
 		</relationship>
 	</object>
 	<object class="TransceiverEffect" id="{757bb0c9-5559-4f41-bce0-50235db9f67c}">
@@ -1960,6 +1965,7 @@
 		<relationship name="automationPoints">
 			<destination>{0e8f870b-140a-42ce-9084-98b63e2886a9}</destination>
 			<destination>{cffb6739-3458-464d-ada5-f6dd32bb512e}</destination>
+			<destination>{f9ad32a7-6829-4e4f-8da0-268b70a6fd64}</destination>
 		</relationship>
 	</object>
 	<object class="TransceiverEffect" id="{075d3c27-e04f-4a89-950d-0f147dd51cd0}">
@@ -2053,6 +2059,22 @@
 			<value>0</value>
 		</property>
 	</object>
+	<object class="AutomationPoint" id="{96daf300-4ed7-431c-8761-8c60eefc6198}">
+		<property name="position">
+			<value>5.0081509146341467</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{22711daa-80cb-4034-a7c1-ab953089bc8c}">
+		<property name="position">
+			<value>4</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{0e8f870b-140a-42ce-9084-98b63e2886a9}">
 		<property name="position">
 			<value>3</value>
@@ -2067,6 +2089,14 @@
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{f9ad32a7-6829-4e4f-8da0-268b70a6fd64}">
+		<property name="position">
+			<value>4.975630589430895</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d0526955-fb7b-4e33-829f-1e47bd26c4da}">

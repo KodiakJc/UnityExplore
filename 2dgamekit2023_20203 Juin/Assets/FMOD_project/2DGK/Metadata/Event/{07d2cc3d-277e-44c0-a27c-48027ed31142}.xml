@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{07d2cc3d-277e-44c0-a27c-48027ed31142}">
 		<property name="color">
-			<value>Yellow</value>
+			<value>Green</value>
 		</property>
 		<property name="name">
 			<value>EllenEmotesEffort</value>
@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{dfb629b7-2911-450c-81d0-8a04f91076bf}">
+		<property name="volume">
+			<value>-9.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{ec490ea4-1c10-47ec-b69f-81553492c6b1}</destination>
 		</relationship>
@@ -93,7 +96,10 @@
 	<object class="MixerBusPanner" id="{58144b88-6dfa-447e-92f3-c7c2fb771ef4}" />
 	<object class="SingleSound" id="{84f549c4-7caf-4195-a756-3c532c517fd9}">
 		<property name="length">
-			<value>0.39333333333333331</value>
+			<value>0.36333333333333329</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.020022597812550516</value>
 		</property>
 		<property name="pitch">
 			<value>-7</value>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{05ffdc43-4ee5-4917-a0a4-f9b5343fc6b1}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>GunnerSteamStage01</value>
 		</property>
@@ -53,7 +56,7 @@
 			<destination>{ec8e744a-9a3c-4e94-ba77-f748ea1cc75f}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{8638b0ec-f383-4d23-87aa-5bbfa74c9c15}</destination>
+			<destination>{16d7c647-dae4-42f1-b963-715ad720aba7}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{13c35f82-d6e2-49e2-9e29-d88095ae0e37}">

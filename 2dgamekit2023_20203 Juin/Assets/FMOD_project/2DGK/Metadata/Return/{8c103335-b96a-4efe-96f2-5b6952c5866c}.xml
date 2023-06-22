@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="MixerReturn" id="{8c103335-b96a-4efe-96f2-5b6952c5866c}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="overridingInputFormat">
 			<value>2</value>
 		</property>
@@ -19,14 +22,53 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{819a48e2-8b64-4bfb-a35c-b46cbed0bad8}">
 		<relationship name="effects">
+			<destination>{0c9ac980-4e3e-436e-b09d-0234fc1ab275}</destination>
+			<destination>{4a4a9969-58f4-44d4-8469-197e3831366c}</destination>
 			<destination>{0863c8a1-a989-4650-afd7-8df0e15c37b6}</destination>
 			<destination>{bd1db194-c8c4-49b4-b6ad-4a563168e5a9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b6ecb21d-f275-4c49-bac5-e1bb10e8f57d}" />
+	<object class="DelayEffect" id="{0c9ac980-4e3e-436e-b09d-0234fc1ab275}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="delay">
+			<value>36</value>
+		</property>
+		<property name="feedback">
+			<value>15</value>
+		</property>
+	</object>
+	<object class="DelayEffect" id="{4a4a9969-58f4-44d4-8469-197e3831366c}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="delay">
+			<value>640</value>
+		</property>
+		<property name="feedback">
+			<value>29</value>
+		</property>
+		<property name="level">
+			<value>-13.5</value>
+		</property>
+	</object>
 	<object class="SFXReverbEffect" id="{0863c8a1-a989-4650-afd7-8df0e15c37b6}">
+		<property name="decayTime">
+			<value>240</value>
+		</property>
+		<property name="earlyDelay">
+			<value>21.5</value>
+		</property>
+		<property name="highCut">
+			<value>4800</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>99</value>
+		</property>
 		<property name="wetLevel">
-			<value>0</value>
+			<value>10</value>
 		</property>
 		<property name="dryLevel">
 			<value>-80</value>
